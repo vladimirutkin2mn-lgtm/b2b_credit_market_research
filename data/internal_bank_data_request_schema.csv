@@ -1,0 +1,57 @@
+field_group,field_name,required,grain,data_type,purpose
+customer,customer_id,yes,customer,string,Anonymous linkage across applications/accounts
+customer,legal_form,yes,customer,categorical,Eligibility/process segmentation
+customer,industry,yes,customer,categorical,Risk and policy segmentation
+customer,annual_revenue_band,yes,customer_or_period,categorical,SME/ticket segmentation
+customer,business_age_months,yes,application,numeric,Eligibility/risk
+customer,existing_customer_flag,yes,application,boolean,Test H1 existing-customer advantage
+customer,current_account_tenure_months,preferred,application,numeric,Relationship depth
+customer,acquiring_relationship_flag,preferred,application,boolean,Embedded-data potential
+application,application_id,yes,application,string,Application grain key
+application,application_timestamp,yes,application,datetime,Funnel timing
+application,product,yes,application,categorical,Credit factory mapping
+application,requested_amount,yes,application,numeric,Ticket
+application,requested_tenor_months,yes,application,numeric,Tenor/risk perimeter
+application,channel,yes,application,categorical,Distribution comparison
+application,preapproved_flag,yes,application,boolean,Pre-underwriting effect
+application,guarantee_flag,yes,application,boolean,Guarantee economics
+application,collateral_flag,yes,application,boolean,Risk architecture
+application,decision,yes,application,categorical,Approved/declined
+application,decline_reason,preferred,application,categorical,Policy/funnel diagnosis
+application,approved_amount,yes,application,numeric,Approval depth
+application,offered_rate_or_fee,yes,application,numeric,Pricing
+application,accepted_flag,yes,application,boolean,Offer conversion
+application,funding_timestamp,yes,application,datetime,Time-to-cash
+process,stp_flag,yes,application,boolean,Automation measurement
+process,manual_review_flag,yes,application,boolean,Automation/exception split
+process,manual_touch_count,preferred,application,numeric,Operating friction/cost
+process,document_request_count,preferred,application,numeric,Customer burden
+process,data_connection_flag,preferred,application,boolean,Data-substitution value
+process,decision_timestamp,yes,application,datetime,Decision SLA
+process,contract_timestamp,preferred,application,datetime,Contract SLA
+risk,origination_cohort,yes,loan,period,Vintage analysis
+risk,pd_or_risk_grade,preferred,loan,numeric_or_categorical,Selection/risk control
+risk,fpd_flag,preferred,loan,boolean,Early risk
+risk,dpd30_flag,yes,loan,boolean,Delinquency
+risk,dpd90_flag,yes,loan,boolean,NPL proxy under defined rules
+risk,default_flag,yes,loan,boolean,Default outcome
+risk,chargeoff_amount,yes,loan,numeric,Realized loss
+risk,recovery_amount,preferred,loan,numeric,Net loss
+risk,ecl_or_provision,preferred,loan_period,numeric,Expected loss/provision
+economics,average_balance,yes,loan_period,numeric,Revenue/funding denominator
+economics,interest_income,yes,loan_period,numeric,Revenue
+economics,fee_income,yes,loan_period,numeric,Revenue
+economics,ftp_or_funding_charge,yes,loan_period,numeric,Funding
+economics,credit_loss_charge,yes,loan_period,numeric,Risk cost
+economics,acquisition_cost,preferred,application_or_customer,numeric,CAC
+economics,underwriting_cost,preferred,application,numeric,Process economics
+economics,servicing_cost,preferred,loan_period,numeric,Process economics
+economics,rwa_or_capital,preferred,loan_period,numeric,Capital intensity
+economics,cross_sell_contribution,optional,customer_period,numeric,Relationship economics
+repeat,prior_loan_count,preferred,application,numeric,Repeat vs first comparison
+repeat,next_credit_date,preferred,customer,datetime,Repeat cycle
+repeat,next_credit_amount,preferred,customer,numeric,LTV/limit progression
+guarantee,guarantee_percent,preferred,loan,numeric,Uncovered risk
+guarantee,guarantee_fee,preferred,loan,numeric,Guarantee economics
+guarantee,claim_recovery,preferred,loan,numeric,Net loss
+guarantee,claim_turnaround_days,optional,loan,numeric,Operational value
