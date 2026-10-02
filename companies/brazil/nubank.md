@@ -236,6 +236,10 @@ Source page:
 https://nubank.com.br/empresas/emprestimos
 
 Asset surfaced by official page:
+
+![Nu Empresas Capital de Giro — official visual](https://www.datocms-assets.com/120597/1743107465-nu-empresas-capital-de-giro.jpg?crop=focalpoint&dpr=1&fit=crop&fm=jpg&q=60&w=1200)
+
+Direct asset:
 https://www.datocms-assets.com/120597/1743107465-nu-empresas-capital-de-giro.jpg?crop=focalpoint&dpr=1&fit=crop&fm=jpg&q=60&w=2000
 
 **Evidence type:** official marketing image showing the Capital de Giro function on a Nu Empresas phone screen.
