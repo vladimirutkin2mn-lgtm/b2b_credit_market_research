@@ -170,20 +170,34 @@ Existing relationship / linked bank data
 The repeat draw does not recreate a full origination:
 **the credit line is continuously reviewed and reused.**
 
-### Screen evidence
+### Screen evidence — enriched second pass
 
-Amex publishes an official illustrated guide showing:
-- BLOC dashboard;
-- Fund my account;
-- Business Checking instant-deposit selection;
-- success state.
+#### Business Blueprint dashboard
 
-Direct stable image assets were not recovered.
+![Amex BLOC — Business Blueprint start](https://www.americanexpress.com/content/dam/amex/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/InstantDeposit_step1a.png)
 
-Official guide:
+#### Business Line of Credit home / start draw
+
+![Amex BLOC — Fund my account](https://www.americanexpress.com/content/dam/amex/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/InstantDeposit_step2b.png)
+
+#### Deposit-location selection
+
+![Amex BLOC — deposit location](https://www.americanexpress.com/content/dam/amex/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/Step-2a.png)
+
+#### Successful instant deposit
+
+![Amex BLOC — success](https://www.americanexpress.com/content/dam/amex/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/Step-3.jpg)
+
+**What the official sequence proves**
+- repeat draw starts inside Business Blueprint/BLOC rather than a fresh application;
+- deposit destination is selected in-flow;
+- Amex Business Checking is explicitly integrated as an instant-deposit destination;
+- successful completion returns the user toward account access.
+
+Official source:
 https://www.americanexpress.com/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/
 
-**Screen coverage:** Medium / official illustrations.
+**Screen coverage:** **Strong for repeat draw / fulfillment**; initial underwriting/application remains partially missing.
 
 ---
 
@@ -513,13 +527,32 @@ The merchant does not build a traditional credit file.
 
 Square's payment relationship **is** much of the credit file.
 
-### Screen evidence
+### Screen evidence — enriched second pass
 
-Official Square Help contains illustrative loan-dashboard/repayment screenshots, but stable direct asset URLs were not recovered.
+#### Loan servicing / repayment dashboard
 
-**Screen coverage: Medium / official illustrations.**
+![Square Loans — repayment dashboard](https://images.ctfassets.net/gc4s9mi2asix/5foEyfENDInLcsDiN1eAcB/ddffd1df3aeecbe950888887e0282514/Healthy_Plan_-_desktop__1_.png)
 
-Source:
+**What it proves**
+- outstanding balance and repayment progress are visible in the same Square Dashboard;
+- automatic payments are shown alongside manual payments;
+- minimum remaining payment and paid-to-date are transparent;
+- servicing is embedded into the seller's operating dashboard.
+
+#### Split payment example
+
+![Square Loans — payment split between balance and ACH](https://images.ctfassets.net/gc4s9mi2asix/23eXZOT1gL32QcSjtbiPRp/59c8b5eb88c0d81559fd98d03547679f/Screenshot_2025-07-23_at_2.18.10%C3%A2__PM.png)
+
+**What it proves**
+- repayment can be sourced from stored Square balance and linked bank account;
+- the servicing layer reconciles multiple repayment sources.
+
+Official source:
+https://squareup.com/help/us/en/article/8548-view-your-loan-reports
+
+**Screen coverage:** **Strong for servicing/repayment;** offer/configuration sequence remains partially missing.
+
+Product source:
 https://squareup.com/us/en/banking/loans
 
 ---
@@ -673,10 +706,10 @@ This is why the Atlas must be read together with:
 | Stone | **Strong** | offer, status, servicing | simulation, contract |
 | iwoca | **Strong/Medium** | application, data, completion | detailed Open Banking, contract, servicing |
 | Nubank | Partial | product surfaced in app | most detailed flow screens |
-| Amex BLOC | Medium / official illustrations | draw, deposit, success | stable direct assets |
+| Amex BLOC | **Strong/Medium** | repeat draw, deposit selection, success | initial application/underwriting |
 | CommBank | Partial | conditional offer observed | full application sequence |
 | Allica | Medium / workflow illustrations | DIP, underwriting stages | authenticated application |
-| Square | Medium / official illustrations | loan servicing/repayment | stable direct assets, offer sequence |
+| Square | **Strong/Medium** | servicing, repayment, payment reconciliation | offer/configuration sequence |
 | Floryn | Partial | calculator/quickscan | PSD2, offer, dashboard |
 | Konfío | Partial | simulator | authenticated flow |
 | Rabobank | Low/Partial | calculator/process | transaction consent, offer |
