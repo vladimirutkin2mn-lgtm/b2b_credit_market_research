@@ -178,7 +178,14 @@ never compare rows without checking `scope` and `comparison_status`.
 ## KPI tree by credit factory
 `data/target_kpi_tree.csv`
 
-Use these only as a generic incumbent-bank design framework until internal bank data are available.
+## Internal bank data request
+`templates/internal_bank_data_request.md`
+`data/internal_bank_data_request_schema.csv`
+
+## Business-case framework
+`docs/business_case_framework.md`
+
+Use these as a generic incumbent-bank design framework until internal bank data are available.
 
 ---
 
