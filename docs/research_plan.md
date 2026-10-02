@@ -440,6 +440,46 @@ Feature matrix with:
 
 ## Для каждого flow измеряем
 
+Customer journey должен быть не только текстовым. Для ключевых customer-visible шагов мы стремимся собирать **клиентские экраны / screenshots / screenflows** и использовать их как самостоятельный тип evidence.
+
+Приоритет визуального evidence:
+1. собственный observed walkthrough;
+2. официальные application/product screens;
+3. официальные app screenshots;
+4. официальные demos / videos / help-center visuals;
+5. user-posted screenshots — только как дополнительный evidence.
+
+Для каждого ключевого этапа, где это возможно, сохраняем:
+- screenshot / screen sequence;
+- screen source;
+- evidence type: observed / official / reported;
+- date captured;
+- relevant borrower scenario;
+- annotations: что именно экран доказывает;
+- status `screen evidence missing`, если визуального подтверждения нет.
+
+Особенно интересны экраны:
+- landing / product discovery;
+- eligibility / pre-check;
+- application start;
+- business / owner data entry;
+- data-source connection;
+- document upload;
+- application status;
+- additional-information request;
+- approval / decline;
+- offer with amount / term / pricing / fees;
+- guarantee / collateral disclosure;
+- e-sign / contract;
+- disbursement confirmation;
+- loan servicing dashboard;
+- repayment / payoff;
+- renewal / top-up / limit increase.
+
+Визуальный evidence нужен не для иллюстрации, а для проверки фактического UX: количества шагов, disclosure условий, autofill, document burden, status transparency и post-disbursement servicing.
+
+### Flow metrics
+
 - number of steps/screens;
 - mandatory fields;
 - docs;
@@ -457,9 +497,13 @@ Feature matrix with:
 ## Deliverable
 
 1. Journey per lender/scenario.
-2. Comparative friction matrix.
-3. Best observed patterns by stage.
-4. Evidence gaps.
+2. **Screenflow / screenshot sequence** по ключевым customer-visible этапам, где evidence доступен.
+3. Annotated screens с пояснением, что именно подтверждает каждый экран.
+4. Comparative friction matrix.
+5. Best observed patterns by stage.
+6. Screen-evidence gaps и остальные evidence gaps.
+
+Итоговый артефакт — не только journey map, но и **visual Customer Journey Atlas**.
 
 ---
 
@@ -671,7 +715,12 @@ Repeat/existing borrowers могут иметь ниже acquisition/underwritin
 - scenario;
 - stage;
 - observed/documented/reported/inferred/unknown;
-- screenshot/page evidence where possible.
+- screenshot/page evidence;
+- screenshot source;
+- screenshot capture date;
+- screen evidence type: observed / official / reported;
+- screen annotations / what the screen proves;
+- `screen evidence missing` when a key customer-visible step has no visual evidence.
 
 ---
 
@@ -723,8 +772,8 @@ Repeat/existing borrowers могут иметь ниже acquisition/underwritin
 ## E. Product / feature matrix
 Comparable offering and capabilities.
 
-## F. Customer journey atlas
-Normalized flows по ключевым scenarios.
+## F. Visual Customer Journey Atlas
+Normalized flows по ключевым scenarios **с клиентскими экранами, screenflows и annotated screenshots**, где они доступны. Для отсутствующих ключевых экранов явно фиксируется `screen evidence missing`.
 
 ## G. Risk / underwriting benchmark
 Data, automation, monitoring, portfolio outcomes.
