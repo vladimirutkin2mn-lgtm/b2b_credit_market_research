@@ -162,6 +162,34 @@ Therefore:
 
 ---
 
+### Current official conditional-approval evidence — enriched second pass
+
+CommBank's current BetterBusiness Loan page includes a first-party mobile screen showing:
+
+- **Business loans & finance**
+- **Your offers**
+- the message **"your business is conditionally approved for finance"**
+- available business-finance products.
+
+The same current page states:
+- the conditional approval is based on information CommBank already knows about the business;
+- the customer can apply online in minutes with no paperwork;
+- existing customers apply in NetBank in up to ~10 minutes;
+- eligible customers receive an instant decision and funds within minutes;
+- new-to-bank customers are routed to a Business Lending Specialist.
+
+**What it proves**
+- pre-underwriting is visible to the customer as an offer state;
+- the best digital journey is explicitly tied to an existing relationship;
+- this is not just prefilled data: the bank is exposing a credit decision state before the full application.
+
+**Asset status:** official screen observed and indexed on the current product page; stable direct image asset URL not recovered, so the page itself remains the source of record.
+
+Official source:
+https://www.commbank.com.au/business/loans-and-finance/betterbusiness-loan.html
+
+---
+
 ## 4. Underwriting and data architecture
 
 ### Directly evidenced
