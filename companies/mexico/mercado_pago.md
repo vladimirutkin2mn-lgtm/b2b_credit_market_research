@@ -97,6 +97,8 @@ This reinforces the idea that product selection happens **after** the platform h
 Sources:
 - https://www.mercadopago.com.mx/mercado-credito/prestamos-negocio-online
 - https://www.mercadopago.com.mx/blog/
+- https://www.mercadopago.com.mx/blog/prestamos-para-negocios
+- https://www.mercadopago.com.mx/blog/credito-basado-en-ventas-mercado-pago
 
 ---
 
@@ -104,8 +106,8 @@ Sources:
 
 Public Mexico materials describe eligibility using:
 - Mercado Pago score;
-- weekly sales;
-- at least two consecutive months of activity;
+- recurring sales activity;
+- at least two consecutive months meeting current offer criteria;
 - positive payment behavior;
 - Mercado Libre seller reputation where applicable;
 - platform usage / sales history.
