@@ -837,14 +837,32 @@ Yield, funding, loss, OPEX, capital, profitability.
 
 ---
 
-# 20. Ближайший конкретный шаг
+# 20. Текущий статус и ближайший конкретный шаг
 
-Следующая рабочая итерация:
+## Wave 1 — Foundation: complete
 
-1. создать **metric dictionary**;
-2. выбрать **первый набор стран** для landscape;
-3. для них собрать **market-source inventory**;
-4. создать пустой **player universe** с единым schema;
-5. только после этого начинать массовый сбор компаний.
+Готовы:
+- **Metric Dictionary** — `docs/metric_dictionary.md`
+- **Geography Shortlist** — `docs/geography_shortlist.md`
+- **Country/SME Definitions** — `docs/country_sme_definitions.md`
+- **Market Source Inventory** — `docs/market_source_inventory.md`
+- **Player Universe Schema** — `docs/player_universe_schema.md`
 
-Это минимальная foundation, после которой исследование начинает масштабироваться без потери сопоставимости.
+Первая географическая волна:
+- **Wave A:** United States, United Kingdom, Brazil, Germany, India
+- **Wave B:** Netherlands, Australia, Mexico
+
+## Next — Wave 2: Landscape
+
+Начинаем фактическое заполнение рынка.
+
+Порядок:
+1. по каждой стране Wave A собрать latest comparable market snapshot;
+2. добавить 3–5 лет динамики там, где series сопоставимы;
+3. отдельно собрать borrower-demand/application/approval evidence;
+4. собрать pricing и credit-quality metrics;
+5. построить borrower × need × product segmentation;
+6. параллельно начать population `data/player_universe.csv`;
+7. после первой пятёрки стран проверить definitions/metrics на реальные конфликты и при необходимости обновить foundation.
+
+Первый Wave 2 deliverable: **cross-country market landscape table с source-level audit trail**, а не narrative report.
