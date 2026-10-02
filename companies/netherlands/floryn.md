@@ -128,6 +128,30 @@ Missing:
 
 ---
 
+### Official servicing / drawdown screen — enriched second pass
+
+![Floryn — draw funds from approved credit](https://www.floryn.com/hubfs/Geld%20opnemen%20klik.png)
+
+The official account screen shows, in one drawdown interaction:
+- available balance;
+- requested draw amount;
+- resulting outstanding balance;
+- current interest rate;
+- quarterly service fee;
+- weekly repayment amount;
+- next repayment date;
+- confirmation button.
+
+**What it proves**
+- after approval, Floryn operates as a reusable facility rather than a one-off application;
+- price and repayment consequences are shown at the moment of draw;
+- servicing, drawdown and pricing transparency live in the same dashboard.
+
+Official source:
+https://www.floryn.com/kennisbank/hoe-neem-ik-geld-op
+
+---
+
 ## 5. Funding economics
 
 Floryn is not deposit funded.
