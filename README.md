@@ -75,9 +75,14 @@
 
 **Сейчас: Wave 2 — Market Landscape & Segmentation**
 
+Первый extraction уже начат:
+- `data/market_landscape.csv` — source-grounded long-form datapoints;
+- `docs/market_landscape_wave_a.md` — первые выводы и comparability caveats.
+
 Следующая работа:
-1. собрать comparable market metrics по Wave A;
-2. построить borrower/product segmentation;
-3. начать заполнять universe игроков.
+1. дозаполнить comparable market metrics по Wave A;
+2. собрать credit-quality и pricing blocks;
+3. построить borrower/product segmentation;
+4. начать заполнять universe игроков.
 
 Список найденных и оцененных публичных agent skills: `docs/skill_scout.md`.
