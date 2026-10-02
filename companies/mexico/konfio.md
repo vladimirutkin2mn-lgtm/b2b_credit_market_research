@@ -121,6 +121,34 @@ Stable full application screenflow assets were not captured.
 
 ---
 
+### Current tax-data underwriting evidence — enriched second pass
+
+Konfío's current official materials reinforce the underwriting sequence:
+
+- customer provides **RFC + SAT password/CIEC**;
+- Konfío uses read-only fiscal/invoicing data to personalize financing;
+- the system estimates affordable monthly payment and generates a personalized amount/rate/term;
+- after validation, the customer can receive recurring/new offers in the Konfío app as business inflows/outflows and repayment behavior evolve.
+
+Current official explanations explicitly say SAT data are used to:
+1. personalize financing to business size;
+2. calculate affordable monthly payment;
+3. set a fixed rate appropriate to the business profile.
+
+**What it proves**
+- tax-data access is the underwriting spine, not merely a KYC step;
+- the personalized offer is calculated from observed fiscal behavior;
+- repeat credit can become increasingly relationship-like even though the original customer was new-to-lender.
+
+**Screen status:** current simulator remains public; authenticated SAT-consent / personalized-offer screen asset not recovered.
+
+Official sources:
+- https://konfio.mx/credito/
+- https://konfio.mx/blog/soluciones-financieras/credito/ventajas-de-ingresar-tus-datos-del-sat-en-konfio/
+- https://konfio.mx/blog/soluciones-financieras/creditos/que-es-konfio-y-como-impulsa-negocios-en-mexico/
+
+---
+
 ## 4. Risk
 
 Public risk architecture is clear at a high level:
