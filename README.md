@@ -101,11 +101,12 @@
 - borrower/product segmentation готова: S1–S7;
 - player universe: **43 игрока**;
 - deep-dive shortlist: **18 игроков**;
-- Batch 1 deep dives начат: **Nubank и Stone first-pass готовы**, включая client-screen evidence.
+- Batch 1 deep dives: **6/6 first-pass готовы** — Nubank, Stone, iwoca, Rabobank, CommBank, Mercado Pago;
+- cross-company synthesis: `docs/batch1_mechanism_synthesis.md`.
 
 Следующая работа:
 1. закрыть infrastructure / remaining market gaps в Wave 2;
-2. продолжить Batch 1: iwoca, Rabobank, CommBank, Mercado Pago;
-3. на каждом deep dive собирать visual screenflow + risk/economics одновременно.
+2. **Batch 2 economics/risk:** Funding Circle, Itaú, SBI, UGRO, Judo, American Express BLOC;
+3. на каждом deep dive связывать UX → underwriting → risk → economics и сохранять visual evidence.
 
 Список найденных и оцененных публичных agent skills: `docs/skill_scout.md`.
