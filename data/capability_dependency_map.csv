@@ -1,0 +1,23 @@
+capability_id,capability,layer,required_by_factories,depends_on,blocks,build_once_or_factory_specific,minimum_viable_output,main_owner
+C01,Reusable customer/KYB object,Identity,"A|B|C|D|E|F","",C02|C04|C05,build_once,"Validated legal entity owners signers KYB status",Operations/Risk/Technology
+C02,Consent and data access management,Data,"A|B|C|E|F","C01",C03,build_once,"Source-specific consent and access status",Data/Compliance/Technology
+C03,Normalized financial data layer,Data,"A|B|C|D|E|F","C02",C04,build_once,"Transactions tax accounting acquiring invoices normalized",Data
+C04,Reusable feature service,Data/Decision,"A|B|C|D|E|F","C03",C05,build_once,"Versioned cash-flow/risk features",Data/Risk
+C05,Eligibility/decision service,Decision,"A|B|C|D|F","C01|C04",C06|C07,build_once,"Approve decline refer limit tenor reasons",Risk/Technology
+C06,Pricing/economics service,Economics,"A|B|C|D|E|F","C05",C08,build_once,"Price with FTP EL OPEX capital fields",Finance/Risk
+C07,Credit orchestration state machine,Workflow,"A|B|C|D|E|F","C01|C05",C08|C09,build_once,"One case state owners SLA outstanding items",Product/Operations/Technology
+C08,Offer and contract service,Journey,"A|B|C|D|F","C06|C07",C10,build_once,"Versioned offer acceptance signing",Product/Legal/Technology
+C09,Exception/case management,Workflow,"A|B|C|D|E|F","C07",C10,build_once,"Reason-coded queue and case owner",Operations/Risk
+C10,Funding/fulfillment integration,Fulfillment,"A|B|C|D|E|F","C08|C09",C11,build_once,"Funds release and timestamped confirmation",Operations/Treasury/Technology
+C11,Monitoring and limit service,Monitoring,"A|B|C|F","C03|C04|C10",C12,build_once,"Refresh limit hold top-up alerts",Risk/Data
+C12,Repeat/top-up service,Servicing,"A|B|F","C11",,factory_configured,"Reusable draw/top-up eligibility and offer",Product/Risk
+C13,Guarantee eligibility/registration,Guarantee,"C","C01|C03|C05",C14,factory_specific,"Scheme eligibility coverage registration",Risk/Operations
+C14,Guarantee claims/economics,Guarantee,"C","C13|C06",,factory_specific,"Claims recovery fees capital treatment",Risk/Finance/Operations
+C15,Relationship credit pack,Relationship,"D","C01|C03|C07",C16,factory_specific,"Spreading memo collateral covenant pack",Credit/RM/Technology
+C16,Delegated authority workflow,Relationship,"D","C15|C09",,factory_specific,"Decision routing and authority record",Credit/Risk
+C17,Invoice/receivables engine,Receivables,"E","C01|C03|C07",C18,factory_specific,"Invoice debtor eligibility advance availability",Product/Risk/Technology
+C18,Collections/reconciliation engine,Receivables,"E","C17|C10",,factory_specific,"Debtor collections reconciliation dilution tracking",Operations
+C19,Merchant activity feature set,Embedded,"F","C03|C04",C20,factory_specific,"Sales frequency volatility refunds concentration",Data/Risk
+C20,Embedded offer API/component,Embedded,"F","C05|C06|C19",C10,factory_specific,"Offer rendered in merchant operating surface",Product/Technology
+C21,Experimentation framework,Optimization,"A|B|C|D|E|F","C05|C07|C11",,build_once,"Treatment/control policy/model/version flags",Data/Product/Risk
+C22,Factory economics reporting,Economics,"A|B|C|D|E|F","C06|C10",,build_once,"Yield funding loss OPEX capital contribution by factory",Finance/Data
