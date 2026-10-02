@@ -3,6 +3,18 @@
 **Version:** 2026-10-02  
 **Purpose:** turn visual-enrichment work into a controlled evidence backlog rather than ad-hoc screenshot hunting.
 
+## Evidence taxonomy
+
+Use three separate labels:
+
+- **Screen evidence** — current first-party UI image or authenticated/public credit interface.
+- **Interactive UI evidence** — live first-party calculator/application interface is directly observable even if no stable image asset is available.
+- **Stage evidence** — current official source specifies customer-visible steps, timing and handoffs, but does not publish the UI itself.
+
+Never promote stage evidence into screen evidence.
+
+---
+
 ## Coverage standard
 
 A company is **Strong** only when first-party evidence covers at least three analytically distinct stages of the credit journey, such as:
@@ -29,16 +41,16 @@ Marketing hero images do not count unless they visibly show the credit interface
 | Floryn | **Medium/Strong** | approved-facility dashboard; drawdown economics | PSD2 consent + personalized offer |
 | Nubank | Partial | credit product surfaced in Nu Empresas | simulation + contract + servicing |
 | CommBank | Partial | conditional/pre-approved offer documented on official page | stable first-party conditional-offer / NetBank application asset |
-| Rabobank | Partial | live calculator/customer UI; public process | transaction-consent + personalized offer |
+| Rabobank | **Medium/Strong** | live price calculator; transaction-data connection stage; direct personalized offer; adviser handoff | stable static consent / offer asset |
 | Konfío | Partial | live public simulator | SAT/CIEC consent + personalized offer |
-| Funding Circle | Partial | public live application sequence / calculator; backend API flow | customer application / personalized quote screen |
+| Funding Circle | **Medium/Strong** | live calculator; eligibility; application; personalized quote stage; funding SLA | authenticated personalized-quote asset |
 | Mercado Pago | Low/Partial | account/app credit entry context; detailed official textual flow | business credit offer + amount/term screen |
 | Itaú | Low | exact app route documented | FGI/Pronampe eligibility + offer |
-| SBI | Low | exact product process documented | PABL/Digi Sugam offer/application |
-| UGRO | Low/Partial | official embedded-process visual | actual partner-platform offer |
-| Commerzbank | Low | online flow documented | online form + adviser/decision state |
+| SBI | **Medium** | current MSME Sahaj/BRE/PABL digital factory documented; historical PABL/YONO visual exists | current authenticated PABL/MSME Sahaj screen |
+| UGRO | **Medium** | current 5-stage embedded process incl. preapproved partner-platform offer | actual partner-app offer screen |
+| Commerzbank | **Medium** | current 4-stage online-to-adviser flow + decision authority | actual form / adviser decision screen |
 | Judo | Low by design | relationship journey | banker/customer case-status tooling if public |
-| Bibby | Low | operational flow documented | invoice upload + availability/draw dashboard |
+| Bibby | **Medium** | 24h advance + 24/7 client portal / invoice & ledger monitoring documented | portal screenshot |
 
 ---
 
