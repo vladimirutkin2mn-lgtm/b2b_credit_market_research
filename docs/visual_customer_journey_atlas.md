@@ -296,14 +296,35 @@ Adds:
 
 **Current transaction evidence is the default; accounting statements are an escalation input.**
 
-### Screen evidence
+### Official servicing / drawdown screen — enriched second pass
 
-Official product calculator/quickscan visuals exist, but authenticated PSD2/offer/dashboard assets were not recovered.
+![Floryn — draw funds from approved credit](https://www.floryn.com/hubfs/Geld%20opnemen%20klik.png)
 
-**Screen coverage: Low/Partial.**
+The official account screen shows, in one drawdown interaction:
+- available balance;
+- requested draw amount;
+- resulting outstanding balance;
+- current interest rate;
+- quarterly service fee;
+- weekly repayment amount;
+- next repayment date;
+- confirmation button.
 
-Source:
-https://www.floryn.com/zakelijk-krediet
+**What it proves**
+- after approval, Floryn operates as a reusable facility rather than a one-off application;
+- price and repayment consequences are shown at the moment of draw;
+- servicing, drawdown and pricing transparency live in the same dashboard.
+
+Official source:
+https://www.floryn.com/kennisbank/hoe-neem-ik-geld-op
+
+The application-side PSD2 consent and personalized offer screens remain missing.
+
+**Screen coverage: Medium/Strong for servicing; Partial for origination.**
+
+Sources:
+- https://www.floryn.com/hoe-werkt-het
+- https://www.floryn.com/kennisbank/hoe-neem-ik-geld-op
 
 ---
 
@@ -736,7 +757,7 @@ This is why the Atlas must be read together with:
 | CommBank | Partial | conditional offer observed | full application sequence |
 | Allica | **Strong** | eligibility, bank connection, handoff to underwriting, drawdown | detailed form fields / formal offer |
 | Square | **Strong/Medium** | servicing, repayment, payment reconciliation | offer/configuration sequence |
-| Floryn | Partial | calculator/quickscan | PSD2, offer, dashboard |
+| Floryn | **Medium/Strong** | calculator/quickscan, approved-facility dashboard, drawdown economics | PSD2 consent, personalized offer |
 | Konfío | Partial | simulator | authenticated flow |
 | Rabobank | Low/Partial | calculator/process | transaction consent, offer |
 | Mercado Pago | Low | product flow documented | credit screens |
