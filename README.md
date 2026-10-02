@@ -12,6 +12,16 @@
 4. **Продукты и функциональности** — виды кредитов, лимиты, сроки, pricing, repayment, pre-approval, integrations, servicing, refinancing/top-up и др.
 5. **Клиентские пути** — discovery → eligibility → application → data/documents → underwriting → offer → signing → disbursement → servicing → repeat borrowing.
 
+## Research plan
+
+Основной план исследования: **`docs/research_plan.md`**.
+
+Логика проекта:
+
+**Definitions → Market → Segments → Player universe → Deep dives → Product/features → Journey → Underwriting/risk → Economics → Synthesis**
+
+Работа разбита на пять waves и также заведена в GitHub Issues как исполнимый backlog.
+
 ## Принцип исследования
 
 Никаких “одна цифра — один источник” и никаких догадок, замаскированных под факт.
@@ -51,6 +61,13 @@
 
 ## Текущий этап
 
-Сначала формируем исследовательскую операционную систему: методики, словарь метрик, source registry и шаблоны. Затем последовательно заполняем рынок и deep dives по банкам/финтехам.
+**Wave 1 — Foundation**
+
+1. Metric dictionary.
+2. Geography shortlist.
+3. Market-source inventory.
+4. Player-universe schema.
+
+После этого — market landscape и первичный universe игроков.
 
 Список найденных и оцененных публичных agent skills: `docs/skill_scout.md`.
