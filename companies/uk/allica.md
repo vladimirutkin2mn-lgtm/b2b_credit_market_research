@@ -129,6 +129,45 @@ https://www.allica.bank/introducers
 
 ---
 
+### Official first-party screens — enriched second pass
+
+#### Eligibility / decision in principle
+
+![Allica — checking eligibility](https://www.allica.bank/hs-fs/hubfs/get-a-decision-in-principle.png?height=750&name=get-a-decision-in-principle.png&width=1218)
+
+**What it proves**
+- the journey begins with an explicit eligibility / decision-in-principle step;
+- the customer gets a preliminary outcome before completing the full underwriting file.
+
+#### Connect bank accounts
+
+![Allica — connect bank accounts](https://www.allica.bank/hs-fs/hubfs/complete-your-application.png?height=981&name=complete-your-application.png&width=1624)
+
+**What it proves**
+- bank-account connectivity is part of the application workflow;
+- the digital layer is used to acquire transaction evidence alongside financial statements.
+
+#### Application submitted / underwriter handoff
+
+![Allica — application submitted](https://www.allica.bank/hs-fs/hubfs/underwriter-review.png?height=620&name=underwriter-review.png&width=1624)
+
+**What it proves**
+- submission and human underwriting are deliberately separated into visible stages;
+- manual review is a designed part of the experience rather than an invisible queue.
+
+#### Approval / drawdown
+
+![Allica — money added to account](https://www.allica.bank/hs-fs/hubfs/approval-and-drawdown.png?height=966&name=approval-and-drawdown.png&width=1624)
+
+**What it proves**
+- funding confirmation is part of the public journey;
+- the published illustration explicitly visualizes cash reaching the business account.
+
+Official source:
+https://www.allica.bank/business-loans
+
+---
+
 ## 4. Underwriting and risk architecture
 
 Publicly evidenced inputs:
