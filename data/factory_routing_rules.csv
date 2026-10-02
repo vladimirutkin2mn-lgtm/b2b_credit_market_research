@@ -1,0 +1,13 @@
+rule_id,priority,condition,route,action,required_data,notes
+R01,1,"Receivables/invoices are primary financed asset and eligibility conditions met",E,"Route to receivables factory","Invoice ledger; debtor data; concentration; dilution","Risk object is receivable not generic borrower cash flow"
+R02,2,"Identifiable equipment/property/asset is primary credit basis",E,"Route to asset-backed specialist lane","Asset details; valuation; ownership; cash flow","May coexist with relationship underwriting"
+R03,3,"High-frequency merchant/acquiring data available AND request within embedded perimeter",F,"Route to embedded merchant factory","Sales history; refunds; chargebacks; frequency; account status","Use only when merchant activity is sufficiently observable"
+R04,4,"Existing customer AND sufficient relationship history AND current KYB AND inside automated perimeter",A,"Pre-underwrite and surface offer","Own transactions; prior repayment; bureau; KYB","Relationship must be behaviorally rich not just account age"
+R05,5,"Existing customer but outside A due to ticket/complexity AND guarantee materially changes feasibility",C,"Route to guarantee-backed lane","Ordinary credit decision; scheme eligibility; revenue data","Guarantee is not default if economics worse"
+R06,6,"Existing customer outside A due to large/bespoke/collateral complexity",D,"Route to relationship lane","Financials; transactions; collateral; projections","Human judgment economically justified"
+R07,7,"New customer AND sufficient machine-readable external cash-flow data AND inside digital perimeter",B,"Route to digital cash-flow factory","Open Banking/tax/accounting; bureau; registry","Documents only on exception"
+R08,8,"New/existing customer ordinary credit viable but guarantee addresses collateral/uncovered-risk constraint",C,"Route to guarantee-backed lane","Credit data; scheme eligibility; guarantee economics","Compare against ordinary route"
+R09,9,"Case exceeds digital perimeter due to ticket/tenor/ownership/structure",D,"Route to relationship lane","Financials; ownership; collateral; projections","Reason-code referral"
+R10,10,"Data insufficient but can become decisionable with defined evidence",D,"Refer to human/specialist with specific evidence request","Missing-data reason; required docs","Do not create generic manual queue"
+R11,11,"Fraud/identity/KYB hard fail",DECLINE,"Decline or suspend per policy","Identity/fraud/KYB","Separate from credit decline"
+R12,12,"Affordability/risk outside appetite with no viable guarantee/collateral route",DECLINE,"Decline with reason","Risk/affordability","Do not hide decline as endless review"
