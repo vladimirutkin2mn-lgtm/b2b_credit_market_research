@@ -860,30 +860,61 @@ Yield, funding, loss, OPEX, capital, profitability.
 
 # 20. Текущий статус и ближайший конкретный шаг
 
-## Wave 1 — Foundation: complete
+## Waves 1–5 — first research cycle complete
 
-Готовы:
-- **Metric Dictionary** — `docs/metric_dictionary.md`
-- **Geography Shortlist** — `docs/geography_shortlist.md`
-- **Country/SME Definitions** — `docs/country_sme_definitions.md`
-- **Market Source Inventory** — `docs/market_source_inventory.md`
-- **Player Universe Schema** — `docs/player_universe_schema.md`
+Completed:
+- Foundation
+- Market Landscape & Segmentation
+- 43-player universe
+- 18-player deep-dive shortlist
+- 18/18 company teardowns
+- cross-company mechanism / economics / operating-model synthesis
+- hypothesis scorecard
+- pattern library
+- transferability matrix
+- country infrastructure map
+- boardroom-grade executive synthesis
 
-Первая географическая волна:
-- **Wave A:** United States, United Kingdom, Brazil, Germany, India
-- **Wave B:** Netherlands, Australia, Mexico
+Core files:
+- `docs/executive_synthesis.md`
+- `docs/cross_country_market_snapshot.md`
+- `docs/hypothesis_scorecard.md`
+- `docs/pattern_library.md`
+- `data/transferability_matrix.csv`
+- `docs/market_infrastructure.md`
 
-## Next — Wave 2: Landscape
+## Next — Final decision artifacts
 
-Начинаем фактическое заполнение рынка.
+### 1. Visual Customer Journey Atlas
+Normalize and visually compare:
+- existing-customer pre-approved flow;
+- new-to-lender unsecured flow;
+- medium-SME relationship flow;
+- embedded merchant flow;
+- guarantee-backed flow.
 
-Порядок:
-1. по каждой стране Wave A собрать latest comparable market snapshot;
-2. добавить 3–5 лет динамики там, где series сопоставимы;
-3. отдельно собрать borrower-demand/application/approval evidence;
-4. собрать pricing и credit-quality metrics;
-5. построить borrower × need × product segmentation;
-6. параллельно начать population `data/player_universe.csv`;
-7. после первой пятёрки стран проверить definitions/metrics на реальные конфликты и при необходимости обновить foundation.
+Use real first-party screens where available and mark missing evidence explicitly.
 
-Первый Wave 2 deliverable: **cross-country market landscape table с source-level audit trail**, а не narrative report.
+### 2. Product / feature comparison
+Build a normalized matrix by operating-model segment, not a generic feature checklist.
+
+### 3. Risk / economics benchmark
+Create source-safe exhibits for:
+- yield/funding/loss/OPEX/capital;
+- automated vs relationship lanes;
+- balance-sheet vs asset-light models;
+- guarantee-backed economics.
+
+### 4. Final executive report
+Convert the evidence base into ~10–15 answer-first exhibits with:
+- headline conclusion;
+- quantified proof;
+- mechanism;
+- implication;
+- caveat.
+
+## Research discipline from here
+
+Do not reopen broad market collection unless a specific final exhibit reveals a material evidence gap.
+
+The default next action is **synthesis/visualization, not more indiscriminate data gathering.**
