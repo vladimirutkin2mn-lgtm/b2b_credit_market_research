@@ -78,35 +78,55 @@
 
 ## Текущий этап
 
-**Wave 1 — Foundation: завершён**
+**Waves 1–5: first research cycle complete**
 
-- Metric dictionary — `docs/metric_dictionary.md` + `data/metric_dictionary.csv`
-- Geography shortlist — `docs/geography_shortlist.md`
-- Country/SME definitions — `docs/country_sme_definitions.md` + `data/country_sme_definitions.csv`
-- Market source inventory — `docs/market_source_inventory.md` + `data/market_source_inventory.csv`
-- Player universe schema — `docs/player_universe_schema.md` + `data/player_universe.csv`
+### Foundation
+- Metric Dictionary
+- Geography Shortlist
+- Country/SME Definitions
+- Market Source Inventory
+- Player Universe Schema
 
-Первая географическая волна:
-- **Wave A:** US, UK, Brazil, Germany, India
-- **Wave B:** Netherlands, Australia, Mexico
+### Market landscape
+- `data/market_landscape.csv`
+- `docs/cross_country_market_snapshot.md`
+- `docs/market_infrastructure.md`
+- `docs/borrower_product_segmentation.md`
+- `docs/remaining_evidence_gaps.md`
 
-**Сейчас: Wave 2 — Market Landscape & Segmentation**
+### Competitive universe
+- **43 players** across 8 markets
+- **18 deep dives**
 
-Первый extraction уже начат:
-- `data/market_landscape.csv` — source-grounded long-form datapoints;
-- `docs/market_landscape_wave_a.md` — первые выводы и comparability caveats.
+### Company research
+All 18 first-pass consulting-grade teardowns complete under `companies/`.
 
-Текущий прогресс:
-- market landscape уже охватывает Wave A и Wave B в long-form evidence table;
-- borrower/product segmentation готова: S1–S7;
-- player universe: **43 игрока**;
-- deep-dive shortlist: **18 игроков**;
-- Batch 1 deep dives: **6/6 first-pass готовы** — Nubank, Stone, iwoca, Rabobank, CommBank, Mercado Pago;
-- cross-company synthesis: `docs/batch1_mechanism_synthesis.md`.
+### Cross-company synthesis
+- `docs/batch1_mechanism_synthesis.md`
+- `docs/batch2_economics_risk_synthesis.md`
+- `docs/batch3_operating_models_synthesis.md`
+- **`docs/executive_synthesis.md`**
+- `docs/hypothesis_scorecard.md`
+- `docs/pattern_library.md`
+- `data/transferability_matrix.csv`
 
-Следующая работа:
-1. закрыть infrastructure / remaining market gaps в Wave 2;
-2. **Batch 2 economics/risk:** Funding Circle, Itaú, SBI, UGRO, Judo, American Express BLOC;
-3. на каждом deep dive связывать UX → underwriting → risk → economics и сохранять visual evidence.
+## Current headline
 
-Список найденных и оцененных публичных agent skills: `docs/skill_scout.md`.
+The evidence does not support one universal “best SME lender.”
+
+The emerging architecture is:
+
+**customer/need × risk object × observable data × decision model × funding/capital model**
+
+with multiple credit factories sharing a common data/risk platform.
+
+## Next phase
+
+Convert the research base into final decision artifacts:
+1. Visual Customer Journey Atlas;
+2. normalized product/feature comparison;
+3. risk/economics benchmark exhibits;
+4. final executive report / boardroom narrative.
+
+The priority is now synthesis and visual evidence, not filling every remaining non-comparable country data cell.
+
