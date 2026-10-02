@@ -372,20 +372,46 @@ The customer does not disappear into an opaque back office.
 
 The underwriter is a visible, designed part of the journey.
 
-### Screen evidence
+### Official first-party screens — enriched second pass
 
-Official product page shows step illustrations for:
-- decision in principle;
-- complete application;
-- underwriter review;
-- approval/drawdown.
+#### Eligibility / decision in principle
 
-Stable direct assets not recovered.
+![Allica — checking eligibility](https://www.allica.bank/hs-fs/hubfs/get-a-decision-in-principle.png?height=750&name=get-a-decision-in-principle.png&width=1218)
 
-**Screen coverage: Medium / workflow visual.**
+**What it proves**
+- the journey begins with an explicit eligibility / decision-in-principle step;
+- the customer gets a preliminary outcome before completing the full underwriting file.
 
-Source:
+#### Connect bank accounts
+
+![Allica — connect bank accounts](https://www.allica.bank/hs-fs/hubfs/complete-your-application.png?height=981&name=complete-your-application.png&width=1624)
+
+**What it proves**
+- bank-account connectivity is part of the application workflow;
+- the digital layer is used to acquire transaction evidence alongside financial statements.
+
+#### Application submitted / underwriter handoff
+
+![Allica — application submitted](https://www.allica.bank/hs-fs/hubfs/underwriter-review.png?height=620&name=underwriter-review.png&width=1624)
+
+**What it proves**
+- submission and human underwriting are deliberately separated into visible stages;
+- manual review is a designed part of the experience rather than an invisible queue.
+
+#### Approval / drawdown
+
+![Allica — money added to account](https://www.allica.bank/hs-fs/hubfs/approval-and-drawdown.png?height=966&name=approval-and-drawdown.png&width=1624)
+
+**What it proves**
+- funding confirmation is part of the public journey;
+- the published illustration explicitly visualizes cash reaching the business account.
+
+Official source:
 https://www.allica.bank/business-loans
+
+**Screen coverage: Strong for the published business-loan journey.**
+
+Remaining gap: authenticated detailed form fields / formal offer screen.
 
 ---
 
@@ -708,7 +734,7 @@ This is why the Atlas must be read together with:
 | Nubank | Partial | product surfaced in app | most detailed flow screens |
 | Amex BLOC | **Strong/Medium** | repeat draw, deposit selection, success | initial application/underwriting |
 | CommBank | Partial | conditional offer observed | full application sequence |
-| Allica | Medium / workflow illustrations | DIP, underwriting stages | authenticated application |
+| Allica | **Strong** | eligibility, bank connection, handoff to underwriting, drawdown | detailed form fields / formal offer |
 | Square | **Strong/Medium** | servicing, repayment, payment reconciliation | offer/configuration sequence |
 | Floryn | Partial | calculator/quickscan | PSD2, offer, dashboard |
 | Konfío | Partial | simulator | authenticated flow |
