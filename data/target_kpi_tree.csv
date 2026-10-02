@@ -1,0 +1,41 @@
+factory,kpi_group,kpi,definition_or_purpose
+A_existing_preapproved,Growth,Eligible base penetration,Share of existing SME customers meeting pre-underwriting criteria
+A_existing_preapproved,Growth,Offer acceptance,Accepted offers divided by offers shown
+A_existing_preapproved,Customer,Time from accept to funds,Measures fulfillment not underwriting
+A_existing_preapproved,Operating,Manual review rate,Share of offers/draws requiring human intervention
+A_existing_preapproved,Risk,Vintage loss by offer cohort,Loss outcome by origination month/quarter
+A_existing_preapproved,Repeat,Repeat draw rate,Share of borrowers drawing again within defined period
+A_existing_preapproved,Economics,Risk-adjusted contribution per relationship,Loan contribution plus allocated relationship value less losses/capital
+B_new_to_bank_digital,Funnel,Data connection completion,Share completing bank/tax/accounting connection
+B_new_to_bank_digital,Funnel,Document request rate,Share needing manual documents after machine-data pull
+B_new_to_bank_digital,Operating,STP rate,Share decided without human credit review
+B_new_to_bank_digital,Customer,Decision time,Application complete to decision
+B_new_to_bank_digital,Economics,Cost per booked loan,Acquisition plus underwriting operations per funded loan
+B_new_to_bank_digital,Risk,First payment default,Early warning of weak selection
+B_new_to_bank_digital,Risk,90+ delinquency by vintage,Normalized credit outcome
+C_guarantee_backed,Funnel,Program eligibility rate,Share meeting guarantee scheme criteria
+C_guarantee_backed,Funnel,Incremental approval uplift,Approval gain versus ordinary bank policy/control
+C_guarantee_backed,Risk,Uncovered loss,Loss after guarantee recoveries/coverage
+C_guarantee_backed,Operations,Guarantee registration time,Operational delay added by program
+C_guarantee_backed,Economics,Guarantee-adjusted contribution,Contribution after guarantee fees/claims/capital treatment
+C_guarantee_backed,Capital,RWA or capital benefit,Capital consumption versus comparable ordinary credit
+D_relationship,Customer,Time to complete credit package,Initial request to complete decision file
+D_relationship,Operating,Handoffs per case,Number of ownership transfers before decision
+D_relationship,Operating,RM/underwriter touches,Manual interaction burden and value
+D_relationship,Operating,Time to decision,Complete pack to credit decision
+D_relationship,Productivity,Approved volume per credit FTE,Underwriting productivity
+D_relationship,Risk,Specific impairment / loss,Idiosyncratic credit outcome
+D_relationship,Economics,RAROC by segment,Return after expected loss and capital
+E_receivables,Operations,Invoice auto-ingestion rate,Share of invoices entering without manual processing
+E_receivables,Customer,Invoice-to-cash time,Time from eligible invoice to advance
+E_receivables,Portfolio,Advance utilization,Drawn amount versus facility availability
+E_receivables,Risk,Dilution rate,Credit notes/disputes reducing receivable value
+E_receivables,Risk,Debtor concentration,Exposure concentration by underlying debtor
+E_receivables,Risk,Fraud loss,Invoice/receivables fraud losses
+E_receivables,Economics,Contribution per financed invoice,Financing and service revenue less funding/risk/ops
+F_embedded_merchant,Funnel,Offer penetration,Share of active merchants receiving offer
+F_embedded_merchant,Data,Transaction coverage,Share of merchant sales observable to lender
+F_embedded_merchant,Customer,Offer-to-fund time,Embedded journey speed
+F_embedded_merchant,Servicing,Sales-linked repayment coverage,Share repaid automatically from sales
+F_embedded_merchant,Risk,Loss by merchant-sales cohort,Credit performance by activity/vintage
+F_embedded_merchant,Economics,Contribution per active merchant,Loan economics plus payment/platform relationship value
