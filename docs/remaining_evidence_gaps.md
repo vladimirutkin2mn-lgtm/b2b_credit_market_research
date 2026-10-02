@@ -124,3 +124,104 @@ A new datapoint should answer:
 > **Which strategic conclusion would change if this number were different?**
 
 If there is no clear answer, it is probably not a priority.
+
+
+---
+
+# Priority-1 research resolution — 2026-10-02
+
+The three Priority-1 gaps were re-checked against current official sources.
+
+## India — current post-Apr-2025 system MSME risk
+
+### Outcome
+**Not fully resolved at system level.**
+
+Current public evidence supports:
+- strong overall banking asset quality;
+- lender-specific post-definition MSME risk, including SBI MSME GNPA of 1.18% at Mar-2026 in the company deep dive.
+
+But a clean, current, all-SCB MSME GNPA series under the new Apr-2025 definition was not established from the official sources reviewed.
+
+### Decision
+Do **not** use overall SCB/PSB GNPA as MSME GNPA.
+
+Use:
+- current lender-level risk;
+- historical system MSME risk with definition warning;
+- new system series only if RBI publishes a clearly defined comparable measure.
+
+**Status: methodological stop, not an unresolved blocker.**
+
+---
+
+## United States — small-business supply/risk anchor
+
+### Outcome
+A regulatory source exists, but it is a **proxy framework**, not a universal SME borrower definition.
+
+FFIEC Call Reports include Schedule RC-C Part II — Loans to Small Businesses and Small Farms.
+
+The regulatory/reporting concept has historically relied materially on:
+- original loan amount;
+- separate reporting for loans to businesses with gross annual revenues ≤$1m.
+
+Current FFIEC forms continue to contain the small-business schedule.
+
+Sources:
+- https://www.ffiec.gov/resources/reporting-forms/ffiec031
+- https://www.fdic.gov/bank-financial-reports/ffiec-reports-condition-and-income-instructions-ffiec-051-report-form-1
+
+### Decision
+This is useful for **bank-supply proxy analysis**, but it must not be merged with:
+- Fed SBCS <500 employee population;
+- SBA NAICS size standards.
+
+A future US exhibit can show:
+**borrower survey lane vs regulatory small-loan proxy lane**, explicitly separated.
+
+**Status: source architecture resolved; no synthetic “US SME stock” will be created.**
+
+---
+
+## Mexico — SME system stock/pricing
+
+### Outcome
+CNBV publishes detailed regulated-institution credit data and portfolio characteristics, including:
+- credit balances;
+- originations;
+- weighted rates;
+- maturity;
+- financial-quality indicators.
+
+However, CNBV's own statistical FAQ states that current enterprise-size reporting has data-quality issues and that it is not presently possible to provide a reliable micro/small/medium breakdown in the relevant reporting context.
+
+Sources:
+- https://www.gob.mx/cnbv/es/articulos/portafolio-de-informacion-pi
+- https://www.gob.mx/cnbv/acciones-y-programas/preguntas-frecuentes-informacion-estadistica
+- https://www.gob.mx/cnbv/acciones-y-programas/informacion-estadistica-100861
+
+Banco de México also provides PyME credit-standards survey series, but those are diffusion/conditions indicators rather than a clean SME stock.
+
+### Decision
+Do **not** infer a national MIPYME stock from total corporate financing.
+
+Use:
+- ENAFIN for borrower-side demand/access;
+- Banxico for PyME credit standards/conditions;
+- CNBV portfolio data when the size definition is source-clean;
+- company data for lender-level risk/economics.
+
+**Status: methodological stop; data-quality limitation documented.**
+
+---
+
+# Final gap-triage conclusion
+
+The market layer is now sufficiently researched for strategic synthesis.
+
+The remaining missing numbers are mostly cases where:
+- the public definition is not aligned; or
+- forcing a number would reduce analytical quality.
+
+The highest-value next evidence is therefore **company/product-level causal evidence**, not more broad country-cell filling.
