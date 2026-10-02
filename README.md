@@ -22,6 +22,23 @@
 
 Работа разбита на пять waves и также заведена в GitHub Issues как исполнимый backlog.
 
+## Quality bar
+
+Целевой стандарт — **boardroom-grade strategy research**, сопоставимый по строгости и executive usefulness с сильной работой top-tier strategy consulting teams, без копирования их proprietary материалов.
+
+Стандарт зафиксирован в:
+- `docs/consulting_quality_standard.md`
+
+Ключевые требования:
+- answer-first;
+- hypothesis-driven;
+- quantified;
+- mechanism-based;
+- UX × risk × economics together;
+- counter-evidence;
+- explicit `So what?`;
+- transferability with prerequisites.
+
 ## Принцип исследования
 
 Никаких “одна цифра — один источник” и никаких догадок, замаскированных под факт.
