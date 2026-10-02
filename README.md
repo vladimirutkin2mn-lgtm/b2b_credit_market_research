@@ -120,13 +120,22 @@ The emerging architecture is:
 
 with multiple credit factories sharing a common data/risk platform.
 
-## Next phase
+## Final decision artifacts
 
-Convert the research base into final decision artifacts:
-1. Visual Customer Journey Atlas;
-2. normalized product/feature comparison;
-3. risk/economics benchmark exhibits;
-4. final executive report / boardroom narrative.
+Completed:
+- **Final Executive Report** — `docs/final_executive_report.md`
+- **Visual Customer Journey Atlas** — `docs/visual_customer_journey_atlas.md`
+- **Product / Feature Comparison** — `docs/product_feature_comparison.md`
+- **Risk / Economics Benchmark** — `docs/risk_economics_benchmark.md`
+- **Final Evidence Index** — `docs/final_evidence_index.md`
 
-The priority is now synthesis and visual evidence, not filling every remaining non-comparable country data cell.
+Machine-readable supporting datasets:
+- `data/journey_comparison.csv`
+- `data/product_feature_matrix.csv`
+- `data/risk_economics_benchmark.csv`
+- `data/transferability_matrix.csv`
+
+**First complete research cycle: finished.**
+
+The highest-value next enrichment is **first-party customer-screen coverage** for journeys that are currently documented mainly through official text/workflow illustrations. Broad market-data filling should remain deprioritized unless a specific decision exhibit requires it.
 
