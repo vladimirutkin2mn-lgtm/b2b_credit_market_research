@@ -19,7 +19,28 @@
 
 ---
 
-# 2. Принцип построения исследования
+# 2. Quality bar
+
+Исследование должно соответствовать отдельному **boardroom-grade consulting standard**:
+`docs/consulting_quality_standard.md`
+
+Главные требования:
+- answer-first / hypothesis-driven;
+- executive synthesis before detail;
+- quantified evidence wherever possible;
+- MECE decomposition where analytically useful;
+- mechanism, not mere correlation;
+- explicit link between UX × risk × economics;
+- counter-evidence / red-team pass;
+- clear `So what?` and strategic implication;
+- transferability only after checking prerequisites;
+- exhibits and customer screens must prove a point, not decorate the report.
+
+Критерий успеха: материал должен выдерживать содержательное обсуждение с CEO/business head, CRO, CFO, product/strategy leadership.
+
+---
+
+# 3. Принцип построения исследования
 
 Исследование идет сверху вниз:
 
@@ -34,7 +55,7 @@
 
 ---
 
-# 3. Единица анализа
+# 4. Единица анализа
 
 Мы сознательно не используем “SME lending” как один однородный рынок.
 
