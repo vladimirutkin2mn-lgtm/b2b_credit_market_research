@@ -1,0 +1,42 @@
+pilot_id,pilot_name,field_group,field_name,required,purpose
+A,Existing-customer preapproved,Design,treatment_control,yes,Experiment assignment
+A,Existing-customer preapproved,Design,policy_version,yes,Policy traceability
+A,Existing-customer preapproved,Eligibility,relationship_tenure,yes,Bounded eligibility
+A,Existing-customer preapproved,Eligibility,preapproved_limit,yes,Treatment exposure
+A,Existing-customer preapproved,Funnel,offer_shown,yes,Offer penetration
+A,Existing-customer preapproved,Funnel,offer_accepted,yes,Conversion
+A,Existing-customer preapproved,Customer,time_to_fund_minutes,yes,Journey outcome
+A,Existing-customer preapproved,Operations,manual_review_flag,yes,Automation outcome
+A,Existing-customer preapproved,Risk,fpd_flag,yes,Early loss
+A,Existing-customer preapproved,Risk,dpd90_flag,yes,Mature risk
+A,Existing-customer preapproved,Economics,risk_adjusted_contribution,preferred,Primary value metric
+B,Data substitution,Design,treatment_control,yes,Experiment assignment
+B,Data substitution,Data,data_connection_completed,yes,Treatment mechanism
+B,Data substitution,Data,document_request_count,yes,Customer burden
+B,Data substitution,Operations,stp_flag,yes,Automation
+B,Data substitution,Operations,underwriting_minutes,preferred,OPEX effect
+B,Data substitution,Funnel,application_completed,yes,Completion
+B,Data substitution,Funnel,booked_flag,yes,Conversion
+B,Data substitution,Risk,fpd_flag,yes,Early risk
+B,Data substitution,Risk,dpd90_flag,yes,Mature risk
+B,Data substitution,Economics,contribution_per_application,preferred,Value
+C,Relationship fast lane,Design,treatment_control,yes,Experiment assignment
+C,Relationship fast lane,Process,handoff_count,yes,Organizational latency
+C,Relationship fast lane,Process,clarification_loop_count,yes,Rework
+C,Relationship fast lane,Process,file_complete_to_decision_hours,yes,Decision speed
+C,Relationship fast lane,Productivity,credit_fte_minutes,preferred,Productivity
+C,Relationship fast lane,Funnel,approved_flag,yes,Approval
+C,Relationship fast lane,Funnel,accepted_flag,yes,Win rate
+C,Relationship fast lane,Risk,override_flag,preferred,Control
+C,Relationship fast lane,Risk,default_flag,yes,Risk outcome
+C,Relationship fast lane,Economics,raroc,preferred,Primary economics
+D,Repeat dynamic limit,Design,treatment_control,yes,Experiment assignment
+D,Repeat dynamic limit,Eligibility,prior_clean_months,yes,Seasoning
+D,Repeat dynamic limit,Limit,previous_limit,yes,Limit change control
+D,Repeat dynamic limit,Limit,new_limit,yes,Limit change control
+D,Repeat dynamic limit,Funnel,repeat_offer_shown,yes,Offer
+D,Repeat dynamic limit,Funnel,repeat_offer_accepted,yes,Conversion
+D,Repeat dynamic limit,Customer,time_to_repeat_fund_minutes,yes,Journey
+D,Repeat dynamic limit,Operations,manual_review_flag,yes,Cost
+D,Repeat dynamic limit,Risk,post_limit_increase_dpd90,yes,Limit creep guardrail
+D,Repeat dynamic limit,Economics,repeat_contribution,preferred,Value
