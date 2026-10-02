@@ -330,6 +330,22 @@ Do not combine different reasons unless source does.
 
 ---
 
+## FUNNEL_CREDIT_CONSTRAINT_RATE
+
+Share of credit-seeking / credit-interested firms reporting restrictive lender behavior, difficulty obtaining credit, or another explicitly defined credit constraint.
+
+**Denominator must be preserved.**
+
+Examples of non-equivalent denominators:
+- all SMEs;
+- SMEs interested in bank credit;
+- firms that entered credit negotiations;
+- loan applicants.
+
+Do not interpret this as rejection rate unless the source explicitly defines it that way.
+
+---
+
 # 3. Pricing and revenue
 
 ## PRICE_BORROWER_NOMINAL_RATE
@@ -348,6 +364,20 @@ Contractual nominal interest rate charged to borrower.
 Annualized effective cost to borrower including fees when methodology supports it.
 
 Preserve local regulatory methodology.
+
+---
+
+## PRICE_EFFECTIVE_NEW_LENDING_RATE
+
+Average/effective interest rate on newly originated lending as reported by a central bank or lender portfolio.
+
+Store:
+- whether weighted by balances or contracts;
+- product/borrower population;
+- fixed/floating treatment;
+- whether fees are included.
+
+**Do not call this APR unless the source explicitly uses APR/effective annual cost methodology.**
 
 ---
 
