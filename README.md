@@ -63,8 +63,8 @@
 
 **Wave 1 — Foundation**
 
-1. Metric dictionary.
-2. Geography shortlist.
+1. ~~Metric dictionary~~ — готов: `docs/metric_dictionary.md` + `data/metric_dictionary.csv`.
+2. **Geography shortlist** — следующий шаг.
 3. Market-source inventory.
 4. Player-universe schema.
 
