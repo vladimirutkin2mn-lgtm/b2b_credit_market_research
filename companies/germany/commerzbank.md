@@ -96,6 +96,29 @@ Current product page describes the four-step flow but stable customer applicatio
 
 ---
 
+### Current four-stage digital-to-human flow — enriched second pass
+
+Commerzbank's current Gewerbekredit page publishes a complete customer-facing process:
+
+1. **Online application** — ~2 minutes;
+2. **Document upload** — optional early upload of balance sheet / EÜR;
+3. **Application review** — adviser contacts customer within 48 hours;
+4. **Activation** — if approved, overdraft line is activated within a few days.
+
+For limits up to **€100k**, the page states the credit decision can be made directly in the adviser conversation.
+
+**What it proves**
+- the digital entry is intentionally short;
+- document upload is optional at the first stage rather than mandatory upfront;
+- the critical speed lever is delegated decision authority in the adviser step.
+
+**Visual status:** current official four-stage journey is explicit; actual online-form / adviser-decision screenshots are not public.
+
+Official source:
+https://www.commerzbank.de/unternehmerkunden/finanzierungen/gewerbekredit/
+
+---
+
 ## 4. Underwriting architecture
 
 Publicly indicated factors:
