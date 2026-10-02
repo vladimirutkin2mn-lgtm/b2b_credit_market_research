@@ -100,3 +100,7 @@ GROWTH_CAGR,growth,CAGR,percent,multi_period,beginning value,Use comparable seri
 GROWTH_REAL,growth,Real growth,percent,period,,State deflator
 FUNNEL_CREDIT_CONSTRAINT_RATE,funnel,Credit constraint rate,percent,period,credit-seeking_or_interested_firms,Denominator and constraint definition must be preserved
 PRICE_EFFECTIVE_NEW_LENDING_RATE,pricing,Effective rate on new lending,percent,period,new lending balance_or_contracts,Do not call APR unless source methodology supports it
+MKT_SME_BUSINESS_COUNT,market,SME or small-business count,count,point_in_time_or_reference_period,,Retain employer/nonemployer and source definition
+MKT_REGISTERED_SME_COUNT,market,Registered/formalised SME count,count,point_in_time,,Not total economic SME universe
+MKT_LENDER_ARCHETYPE_SHARE_NEW_LENDING,market,Lender archetype share of new lending,percent,flow,total relevant new lending,Specify lender archetype and denominator
+FUNNEL_EXTERNAL_FINANCE_USAGE_RATE,funnel,External finance usage rate,percent,period,relevant SME population,Not application or financing-need rate
