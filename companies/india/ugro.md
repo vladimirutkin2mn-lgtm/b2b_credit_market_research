@@ -133,6 +133,35 @@ The official UGRO page visually depicts all five stages, but stable direct image
 
 ---
 
+### Current embedded-flow evidence — enriched second pass
+
+UGRO's current Embedded Financing page visually and textually presents a five-stage merchant journey:
+
+1. **Pre-Qualification** — merchant identified from platform transaction data;
+2. **Credit Evaluation** — automated GRO Score + financial data;
+3. **Offer Generation** — pre-approved offer inside the partner platform;
+4. **Digital Acceptance** — KYC and consent;
+5. **Disbursal** — funds credited instantly or within hours.
+
+The same current page states:
+- no separate application;
+- no physical paperwork;
+- platform transaction data auto-captured;
+- bank statements / GST used where applicable;
+- transparent pricing;
+- repayment can be daily, weekly or monthly.
+
+**What it proves**
+- the offer is meant to appear **inside a partner platform**, not in a standalone UGRO application;
+- embedded distribution is part of the underwriting design, not only an acquisition channel.
+
+**Visual status:** current official five-stage process visual is available; actual third-party partner-app offer screen remains unavailable publicly.
+
+Official source:
+https://www.ugrocapital.com/embedded-financing
+
+---
+
 ## 4. Risk
 
 FY26:
