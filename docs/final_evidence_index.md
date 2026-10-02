@@ -199,7 +199,11 @@ never compare rows without checking `scope` and `comparison_status`.
 `templates/sme_lending_diagnostic_questionnaire.md`
 `docs/diagnostic_workshop_structure.md`
 
-Use these as a generic incumbent-bank design and diagnostic framework until internal bank data are available.
+## Pilot playbooks
+`docs/pilot_playbooks.md`
+`data/pilot_measurement_schema.csv`
+
+Use these as a generic incumbent-bank design, diagnostic and experimentation framework until internal bank data are available.
 
 ---
 
