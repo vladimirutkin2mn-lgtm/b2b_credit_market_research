@@ -154,3 +154,20 @@ The default architecture is:
 **one reusable customer/data/decision layer + multiple risk-specific credit factories + one risk-adjusted economics framework.**
 
 The sequencing is intentionally generic and must be re-scored with internal bank data before becoming a bank-specific implementation plan.
+
+
+## Implementation toolkit
+
+The project now also contains a complete generic path from target model to execution:
+
+- `docs/credit_factory_implementation_blueprints.md`
+- `data/capability_dependency_map.csv`
+- `docs/implementation_backlog.md`
+- `data/implementation_backlog.csv`
+- `docs/credit_factory_routing_logic.md`
+- `data/factory_routing_rules.csv`
+- `docs/governance_decision_rights.md`
+- `data/governance_raci.csv`
+- `docs/lender_archetype_playbooks.md`
+
+Together with the diagnostic, business-case and pilot toolkit, this makes the external-research layer effectively complete. The next bank-specific step is parameterization with internal data rather than more generic market collection.
