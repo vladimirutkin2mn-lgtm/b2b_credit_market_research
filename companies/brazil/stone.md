@@ -170,6 +170,10 @@ Stone has materially better first-party screen evidence than many peers.
 ### Screen 1 — Pre-approved offer on account home
 
 Official image:
+
+![Stone — pre-approved credit offer in app](https://martech-web-cdn.stone.com.br/optimized/stone/4271eb33-edc1-4617-a3eb-b42b1e09a759/step-by-step-emprestimo-desktop.png)
+
+Direct asset:
 https://martech-web-cdn.stone.com.br/optimized/stone/4271eb33-edc1-4617-a3eb-b42b1e09a759/step-by-step-emprestimo-desktop.png
 
 Source:
@@ -183,6 +187,10 @@ https://www.stone.com.br/capital-de-giro
 ### Screen 2 — Application status timeline
 
 Official image:
+
+![Stone — loan application status timeline](https://res.cloudinary.com/dunz5zfpt/f_auto%2Cc_limit%2Cw_1080%2Cq_90/stone-cms/prod/capital_de_giro_stone_abra_seu_app_confira_oferta_credito_passo_4_web_159c8abd6c)
+
+Direct asset:
 https://res.cloudinary.com/dunz5zfpt/f_auto%2Cc_limit%2Cw_1080%2Cq_90/stone-cms/prod/capital_de_giro_stone_abra_seu_app_confira_oferta_credito_passo_4_web_159c8abd6c
 
 **Visible states**
@@ -196,6 +204,10 @@ The screen explicitly says that, if approved, funds can reach the account in **u
 ### Screen 3 — Repayment / installment state
 
 Official image:
+
+![Stone — repayment and installment servicing](https://res.cloudinary.com/dunz5zfpt/f_auto%2Cc_limit%2Cw_1080%2Cq_90/stone-cms/prod/capital_de_giro_stone_vendeu_bem_no_mes_valor_da_parcela_diminui_b4c3ad04b5)
+
+Direct asset:
 https://res.cloudinary.com/dunz5zfpt/f_auto%2Cc_limit%2Cw_1080%2Cq_90/stone-cms/prod/capital_de_giro_stone_vendeu_bem_no_mes_valor_da_parcela_diminui_b4c3ad04b5
 
 **What it proves**
