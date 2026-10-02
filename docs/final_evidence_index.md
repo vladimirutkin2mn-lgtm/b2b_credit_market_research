@@ -167,7 +167,22 @@ never compare rows without checking `scope` and `comparison_status`.
 
 ---
 
-# 10. Methodology
+# 10. Target operating model
+
+## Design blueprint
+`docs/target_operating_model_blueprint.md`
+
+## Opportunity map
+`data/opportunity_map.csv`
+
+## KPI tree by credit factory
+`data/target_kpi_tree.csv`
+
+Use these only as a generic incumbent-bank design framework until internal bank data are available.
+
+---
+
+# 11. Methodology
 
 ## Research plan
 `docs/research_plan.md`
@@ -184,7 +199,7 @@ never compare rows without checking `scope` and `comparison_status`.
 
 ---
 
-# 11. Evidence-status summary
+# 12. Evidence-status summary
 
 ## High-confidence operating-model conclusions
 - multiple credit factories;
@@ -214,7 +229,7 @@ definitions are not sufficiently comparable.
 
 ---
 
-# 12. Recommended reading order
+# 13. Recommended reading order
 
 For executive reader:
 1. `docs/final_executive_report.md`
