@@ -130,6 +130,31 @@ Stable direct asset URLs were not captured.
 
 ---
 
+### Screen evidence — enriched second pass
+
+#### Loan servicing / repayment dashboard
+
+![Square Loans — repayment dashboard](https://images.ctfassets.net/gc4s9mi2asix/5foEyfENDInLcsDiN1eAcB/ddffd1df3aeecbe950888887e0282514/Healthy_Plan_-_desktop__1_.png)
+
+**What it proves**
+- outstanding balance and repayment progress are visible in the same Square Dashboard;
+- automatic payments are shown alongside manual payments;
+- minimum remaining payment and paid-to-date are transparent;
+- servicing is embedded into the seller's operating dashboard.
+
+#### Split payment example
+
+![Square Loans — payment split between balance and ACH](https://images.ctfassets.net/gc4s9mi2asix/23eXZOT1gL32QcSjtbiPRp/59c8b5eb88c0d81559fd98d03547679f/Screenshot_2025-07-23_at_2.18.10%C3%A2__PM.png)
+
+**What it proves**
+- repayment can be sourced from stored Square balance and linked bank account;
+- the servicing layer reconciles multiple repayment sources.
+
+Official source:
+https://squareup.com/help/us/en/article/8548-view-your-loan-reports
+
+---
+
 ## 5. Funding / balance-sheet economics
 
 Block 2Q26 filing:
