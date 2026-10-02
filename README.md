@@ -79,10 +79,16 @@
 - `data/market_landscape.csv` — source-grounded long-form datapoints;
 - `docs/market_landscape_wave_a.md` — первые выводы и comparability caveats.
 
+Текущий прогресс:
+- market landscape уже охватывает Wave A и Wave B в long-form evidence table;
+- borrower/product segmentation готова: S1–S7;
+- player universe: **43 игрока**;
+- deep-dive shortlist: **18 игроков**;
+- Batch 1 deep dives начат: **Nubank и Stone first-pass готовы**, включая client-screen evidence.
+
 Следующая работа:
-1. дозаполнить comparable market metrics по Wave A;
-2. собрать credit-quality и pricing blocks;
-3. построить borrower/product segmentation;
-4. начать заполнять universe игроков.
+1. закрыть infrastructure / remaining market gaps в Wave 2;
+2. продолжить Batch 1: iwoca, Rabobank, CommBank, Mercado Pago;
+3. на каждом deep dive собирать visual screenflow + risk/economics одновременно.
 
 Список найденных и оцененных публичных agent skills: `docs/skill_scout.md`.
