@@ -418,6 +418,23 @@ Preserve local regulatory methodology.
 
 ---
 
+## PRICE_AVG_OUTSTANDING_LOAN_RATE
+
+Average interest rate on the outstanding loan stock for the defined borrower/product population.
+
+Store:
+- borrower-size definition;
+- product coverage;
+- whether the rate includes fixed and variable loans;
+- whether fees are excluded/included.
+
+**Do not mix with**
+- rate on new lending;
+- APR/effective annual borrower cost;
+- portfolio yield calculated from accounting interest income.
+
+---
+
 ## PRICE_EFFECTIVE_NEW_LENDING_RATE
 
 Average/effective interest rate on newly originated lending as reported by a central bank or lender portfolio.
