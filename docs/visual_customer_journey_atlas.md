@@ -617,14 +617,38 @@ Seller activity
 → product-specific repayment  
 → future offer based on updated behavior.
 
-### Screen evidence
+### Current 2026 business-credit flow — enriched second pass
 
-Credit-specific authenticated screens were not recovered.
+Current Mercado Pago Mexico guidance now states the full in-app business-credit path:
 
-**Screen evidence missing.**
+1. enter the Mercado Pago business account;
+2. go to **Préstamos / Créditos**;
+3. review the **available pre-approved offer**;
+4. select **amount and term**;
+5. accept terms;
+6. funds are credited **immediately** to the Mercado Pago account.
 
-Source:
-https://www.mercadopago.com.mx/mercado-credito/prestamos-negocio-online
+The current business-credit product page separately shows:
+- Dinero Plus up to MXN1.25m;
+- Cuotas Fijas up to MXN6m / 24 monthly installments;
+- a live **"Ingresa un monto"** interaction;
+- eligibility tied to Mercado Pago score and recurring sales activity.
+
+A current 2026 article states that the merchant's sales history directly affects **amount, term and rate**.
+
+**What it proves**
+- the customer starts from a pre-underwritten personalized offer rather than a blank credit application;
+- configuration is amount/term centric;
+- merchant sales history is not merely an eligibility input: it affects commercial terms.
+
+**Screen status:** current first-party product UI / live amount interaction observed; a stable authenticated offer-screen asset remains missing.
+
+Official sources:
+- https://www.mercadopago.com.mx/mercado-credito/prestamos-negocio-online
+- https://www.mercadopago.com.mx/blog/prestamos-para-negocios
+- https://www.mercadopago.com.mx/blog/historial-ventas-credito-pyme
+
+**Screen coverage: Medium for public product interaction / documented app path; authenticated personalized-offer screen remains missing.**
 
 ---
 
@@ -669,15 +693,39 @@ The guarantee changes:
 
 Therefore the extra eligibility stage may improve approval economics even if it adds process complexity.
 
-### Screen evidence
+### Current official guarantee-credit screen evidence — enriched second pass
 
-Exact app route is documented by official product pages, but stable transaction screens were not captured.
+Itaú's current **Emps** page includes an official mobile-app visual whose accessible description explicitly states that the app menu highlights **Pronampe e ProCred**.
 
-**Screen evidence missing.**
+The current Itaú ProCred 360 / Pronampe pages document the customer journey:
 
-Sources:
-https://www.itau.com.br/empresas/emprestimos-financiamentos/fgi
-https://www.itau.com.br/empresas/emprestimos-financiamentos/fgo
+1. share company revenue data through **Portal e-CAC / gov.br**;
+2. open the **Itaú Empresas** app;
+3. navigate to **Crédito → Empréstimos Parcelados → Giro Pronampe / ProCred 360**;
+4. if credit is available, proceed to simulation;
+5. accept the required declarations;
+6. contract using the mobile token.
+
+The ProCred 360 page also publishes the exact revenue-data-consent path:
+- representative logs into gov.br;
+- selects Pronampe data-sharing authorization;
+- creates a new authorization;
+- chooses company revenue information;
+- enters CNPJ and calendar year.
+
+**What it proves**
+- government-program complexity is partly shifted into digital data consent;
+- eligibility depends on external government revenue data before the in-app offer can be completed;
+- the digital bank journey integrates risk-sharing/program eligibility with ordinary credit simulation/contracting.
+
+**Asset status:** official mobile app visual is present on the current Itaú Emps page, but a stable direct image URL was not recovered.
+
+Official sources:
+- https://www.itau.com.br/emps
+- https://www.itau.com.br/empresas/emprestimos-financiamentos/procred-360
+- https://www.itau.com.br/empresas/emprestimos-financiamentos/fgo
+
+**Screen coverage: Medium for official app/product evidence; detailed simulation/offer/token screens remain missing.**
 
 ---
 
@@ -760,7 +808,7 @@ This is why the Atlas must be read together with:
 | Floryn | **Medium/Strong** | calculator/quickscan, approved-facility dashboard, drawdown economics | PSD2 consent, personalized offer |
 | Konfío | Partial | simulator | authenticated flow |
 | Rabobank | Low/Partial | calculator/process | transaction consent, offer |
-| Mercado Pago | Low | product flow documented | credit screens |
+| Mercado Pago | **Medium** | current product UI + pre-approved amount/term flow documented | authenticated personalized-offer screen |
 | Itaú | Low | app route documented | credit screens |
 | SBI | Low | product flow documented | credit screens |
 | Commerzbank | Low | four-step process | actual screens |
