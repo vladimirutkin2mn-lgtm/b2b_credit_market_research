@@ -119,6 +119,9 @@ Use:
 ## Visual Atlas
 `docs/visual_customer_journey_atlas.md`
 
+## Screen evidence audit / acquisition backlog
+`docs/screen_evidence_audit.md`
+
 ## Normalized journey data
 `data/journey_comparison.csv`
 
