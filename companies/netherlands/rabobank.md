@@ -189,6 +189,36 @@ We do not substitute generic Rabobank marketing images for actual credit-flow ev
 
 ---
 
+### Current live customer journey — enriched second pass
+
+Rabobank's current business-finance pages expose a real interactive journey rather than only explanatory copy:
+
+1. customer selects financing purpose and amount;
+2. **30-second price indication** shows estimated rate and monthly payment;
+3. selecting **Ga verder** starts personalization;
+4. customer supplies business/investment information and connects transaction data from relevant business accounts;
+5. a **personalized / indicative offer is shown directly**, including amount, rate, term and product form;
+6. customer can still alter term / own contribution before making the application final;
+7. after final submission, an adviser contacts the customer within one business day / up to two business days depending product page;
+8. after offer signing, funding can often be used within two business days.
+
+For qualifying credit/loans up to **€250k / 5 years**, Rabobank states that annual accounts may not be required; automatic affordability assessment can use at least **13 months of transaction data**, subject to turnover/sector/structure rules.
+
+**What it proves**
+- price indication, data connection and personalized offer are customer-visible digital stages;
+- the personalized offer exists **before** adviser conversation;
+- transaction data are not only collected backstage: they directly determine whether the low-document route is available.
+
+**Visual status:** live first-party calculator/application UI is current and observable, but a stable static transaction-consent / personalized-offer image asset was not recovered.
+
+Official sources:
+- https://www.rabobank.nl/bedrijven/zakelijk-financieren
+- https://www.rabobank.nl/bedrijven/zakelijk-financieren/bereken-indicatie
+- https://www.rabobank.nl/bedrijven/zakelijk-financieren/hoe-vraag-ik-een-financiering-aan
+- https://www.rabobank.nl/bedrijven/zakelijk-financieren/hoe-hoog-wordt-mijn-rente
+
+---
+
 ## 5. Risk and portfolio quality
 
 ### Company-level / group evidence
