@@ -858,63 +858,91 @@ Yield, funding, loss, OPEX, capital, profitability.
 
 ---
 
-# 20. Текущий статус и ближайший конкретный шаг
+# 20. Текущий статус
 
-## Waves 1–5 — first research cycle complete
+## Публичный market-research plan — выполнен
 
-Completed:
-- Foundation
-- Market Landscape & Segmentation
-- 43-player universe
-- 18-player deep-dive shortlist
-- 18/18 company teardowns
-- cross-company mechanism / economics / operating-model synthesis
-- hypothesis scorecard
-- pattern library
-- transferability matrix
-- country infrastructure map
-- boardroom-grade executive synthesis
+По исходному плану закрыты Waves 1–5 и все основные deliverables A–J.
 
-Core files:
-- `docs/executive_synthesis.md`
-- `docs/cross_country_market_snapshot.md`
-- `docs/hypothesis_scorecard.md`
-- `docs/pattern_library.md`
-- `data/transferability_matrix.csv`
-- `docs/market_infrastructure.md`
+### Wave 1 — Foundation
+- [x] Metric dictionary
+- [x] Geography shortlist
+- [x] Market-source inventory
+- [x] Player-universe schema
 
-## Next — Final decision artifacts
+### Wave 2 — Landscape
+- [x] Country market landscape for 8 markets
+- [x] Borrower/product segmentation
+- [x] 43-player universe
+- [x] Market infrastructure map
+- [x] Methodological stop rules for non-comparable data
 
-### 1. Visual Customer Journey Atlas
-Normalize and visually compare:
-- existing-customer pre-approved flow;
-- new-to-lender unsecured flow;
-- medium-SME relationship flow;
-- embedded merchant flow;
-- guarantee-backed flow.
+### Wave 3 — Shortlist
+- [x] 18-player deep-dive shortlist
+- [x] Normalized research scenarios
 
-Use real first-party screens where available and mark missing evidence explicitly.
+### Wave 4 — Deep research
+- [x] 18/18 company teardowns
+- [x] Product/features
+- [x] Customer journeys
+- [x] Visual screen evidence / explicit screen gaps
+- [x] Underwriting/risk
+- [x] Economics
 
-### 2. Product / feature comparison
-Build a normalized matrix by operating-model segment, not a generic feature checklist.
+### Wave 5 — Synthesis
+- [x] Cross-company comparison
+- [x] Hypothesis testing
+- [x] Pattern library
+- [x] Transferability assessment
+- [x] Executive conclusions
 
-### 3. Risk / economics benchmark
-Create source-safe exhibits for:
-- yield/funding/loss/OPEX/capital;
-- automated vs relationship lanes;
-- balance-sheet vs asset-light models;
-- guarantee-backed economics.
+## Final deliverables A–J
 
-### 4. Final executive report
-Convert the evidence base into ~10–15 answer-first exhibits with:
-- headline conclusion;
-- quantified proof;
-- mechanism;
-- implication;
-- caveat.
+- [x] A. Executive market report — `docs/final_executive_report.md`
+- [x] B. Country market landscape — `docs/cross_country_market_snapshot.md`
+- [x] C. Player universe — `data/player_universe.csv`
+- [x] D. 12–18 company teardowns — 18 completed under `companies/`
+- [x] E. Product / feature matrix — `docs/product_feature_comparison.md`, `data/product_feature_matrix.csv`
+- [x] F. Visual Customer Journey Atlas — `docs/visual_customer_journey_atlas.md`
+- [x] G. Risk / underwriting benchmark — company teardowns + synthesis / benchmark artifacts
+- [x] H. Lending economics benchmark — `docs/risk_economics_benchmark.md`
+- [x] I. Pattern library — `docs/pattern_library.md`
+- [x] J. Opportunity / transferability map — `data/transferability_matrix.csv`, `data/opportunity_map.csv`
+
+## Important caveats
+
+“Выполнен” не означает, что по каждому рынку и каждой компании существует полный набор публичных данных.
+
+Остаются сознательно незаполненные области, где public evidence недостаточен или несопоставим, например:
+- product-level RAROC у многих игроков;
+- existing-vs-new customer loss deltas;
+- repeat-loan economics;
+- автоматизированный vs manual cost-to-serve;
+- некоторые authenticated customer screens;
+- отдельные country-level SME stock/risk metrics, где официальные определения несовместимы.
+
+Эти пробелы задокументированы и не заполнены proxy как факт.
+
+## Следующий этап — не market research, а bank-specific application
+
+Публичный research layer закрыт.
+
+Дальнейшая работа требует внутренних данных конкретного банка для:
+- opportunity sizing;
+- baseline/target KPI;
+- bank-specific roadmap;
+- business case by credit factory;
+- policy / operating-model redesign;
+- pilot calibration.
+
+Контрольный backlog:
+- GitHub Issue #8 — target operating model tailoring to internal bank data.
 
 ## Research discipline from here
 
-Do not reopen broad market collection unless a specific final exhibit reveals a material evidence gap.
+Не возобновлять широкий market-data collection по умолчанию.
 
-The default next action is **synthesis/visualization, not more indiscriminate data gathering.**
+Новый внешний ресерч нужен только если:
+- конкретный внутренний business case выявляет material evidence gap;
+- требуется свежий screenflow / pricing / regulation;
+- появляется новый стратегически важный archetype.
