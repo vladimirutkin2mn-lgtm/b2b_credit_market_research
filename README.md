@@ -61,13 +61,23 @@
 
 ## Текущий этап
 
-**Wave 1 — Foundation**
+**Wave 1 — Foundation: завершён**
 
-1. ~~Metric dictionary~~ — готов: `docs/metric_dictionary.md` + `data/metric_dictionary.csv`.
-2. **Geography shortlist** — следующий шаг.
-3. Market-source inventory.
-4. Player-universe schema.
+- Metric dictionary — `docs/metric_dictionary.md` + `data/metric_dictionary.csv`
+- Geography shortlist — `docs/geography_shortlist.md`
+- Country/SME definitions — `docs/country_sme_definitions.md` + `data/country_sme_definitions.csv`
+- Market source inventory — `docs/market_source_inventory.md` + `data/market_source_inventory.csv`
+- Player universe schema — `docs/player_universe_schema.md` + `data/player_universe.csv`
 
-После этого — market landscape и первичный universe игроков.
+Первая географическая волна:
+- **Wave A:** US, UK, Brazil, Germany, India
+- **Wave B:** Netherlands, Australia, Mexico
+
+**Сейчас: Wave 2 — Market Landscape & Segmentation**
+
+Следующая работа:
+1. собрать comparable market metrics по Wave A;
+2. построить borrower/product segmentation;
+3. начать заполнять universe игроков.
 
 Список найденных и оцененных публичных agent skills: `docs/skill_scout.md`.
