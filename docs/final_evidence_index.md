@@ -203,7 +203,17 @@ never compare rows without checking `scope` and `comparison_status`.
 `docs/pilot_playbooks.md`
 `data/pilot_measurement_schema.csv`
 
-Use these as a generic incumbent-bank design, diagnostic and experimentation framework until internal bank data are available.
+## Credit factory implementation blueprints
+`docs/credit_factory_implementation_blueprints.md`
+
+## Capability dependency map
+`data/capability_dependency_map.csv`
+
+## Implementation backlog
+`docs/implementation_backlog.md`
+`data/implementation_backlog.csv`
+
+Use these as a generic incumbent-bank design, diagnostic, experimentation and implementation framework until internal bank data are available.
 
 ---
 
