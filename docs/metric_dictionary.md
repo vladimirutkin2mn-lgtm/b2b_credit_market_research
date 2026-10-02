@@ -44,6 +44,57 @@ A normalized metric never replaces the original source definition.
 
 # 1. Market scale and lending volume
 
+## MKT_SME_BUSINESS_COUNT — Number of SMEs / small businesses
+
+Number of enterprises in the source-defined SME or small-business population.
+
+**Unit:** count.
+
+Always retain:
+- source definition;
+- employer vs nonemployer coverage;
+- active/registered/statistical population;
+- reference date.
+
+**Do not mix**
+registered MSMEs, active tax entities, survey populations and economically active businesses as if they were identical.
+
+---
+
+## MKT_REGISTERED_SME_COUNT — Registered/formalised SME count
+
+Number of businesses registered in a formal SME/MSME registry or administrative programme.
+
+Useful in markets such as India, but it is **not automatically the total economic SME population**.
+
+---
+
+## MKT_LENDER_ARCHETYPE_SHARE_NEW_LENDING — Lender-archetype share of new lending
+
+**Formula**
+
+`new lending from specified lender archetype / total relevant new lending`
+
+Examples:
+- challenger/specialist banks;
+- large incumbent banks;
+- non-bank lenders.
+
+The denominator and lender population must be explicit.
+
+---
+
+## FUNNEL_EXTERNAL_FINANCE_USAGE_RATE — External-finance usage rate
+
+Share of source-defined SMEs currently using or having used an external finance product in the specified reference period.
+
+Do not substitute for:
+- application rate;
+- financing-need rate;
+- debt usage rate.
+
+---
+
 ## MKT_LOAN_STOCK_SME — SME outstanding loan stock
 
 **Canonical definition**  
