@@ -1,0 +1,12 @@
+epic_id,epic,priority_group,depends_on,main_deliverable,pilot_or_validation,exit_criterion
+E0,Baseline and instrumentation,Foundation,,"End-to-end application loan process risk and economics instrumentation","Baseline audit","Current conversion time manual work loss and economics measurable"
+E1,Shared customer and data foundation,Foundation,E0,"Reusable KYB consent normalized data feature inputs","Data quality validation","Applications consume reusable customer/data objects"
+E2,Decisioning and orchestration,Foundation,E1,"Policy services reason codes state machine exception queues","Shadow decision / audit","Policy changes independent of front end; case state auditable"
+E3,Existing-customer preapproved MVP,Factory_A,"E1|E2","Dynamic eligibility offer acceptance funding monitoring","Pilot A","Controlled cohort completes without traditional application"
+E4,Data-substitution MVP,Factory_B,"E1|E2","External data connection cashflow decision document fallback","Pilot B","Fewer docs/touches with controlled risk"
+E5,Repeat and servicing,Factory_A_B,"E3|E4","Reusable limits top-up dynamic refresh servicing","Pilot D","Repeat borrower avoids full re-origination"
+E6,Relationship fast lane,Factory_D,"E1|E2","Digital credit pack case owner delegated authority conditions","Pilot C","Lower cycle/handoffs without control deterioration"
+E7,Guarantee integration,Factory_C,"E1|E2","Scheme eligibility registration claims separate economics","Guaranteed vs ordinary cohort analysis","Guarantee loan measurable end-to-end"
+E8,Specialist factories,Factory_E_F,"E1|E2","Receivables embedded merchant or asset engine","Factory-specific pilot","Risk object and economics distinct while platform reused"
+E9,Funding and capital optimization,Economics,"E3|E4|E6|E7|E8","FTP capital hold/distribute economics","Finance/Treasury review","Growth decisions use funding/capital-adjusted contribution"
+E10,Continuous optimization,Optimization,"E3|E4|E5|E6|E7|E8|E9","Experimentation threshold dynamic limits portfolio allocation","Champion/challenger","Policy changes evidence-based and measurable"
