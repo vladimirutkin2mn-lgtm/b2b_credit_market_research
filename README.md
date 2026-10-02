@@ -1,1 +1,56 @@
-# b2b_credit_market_research
+# B2B SME Credit Market Research
+
+Репозиторий для системного исследования рынка кредитования юридических лиц / SME.
+
+## Цель
+
+Построить доказательный market research, который одновременно отвечает на пять групп вопросов:
+
+1. **Рынок** — размер, динамика, сегменты, страны, типы игроков и источники фондирования.
+2. **Финансы** — объемы выдач и портфеля, доходность, стоимость фондирования, cost of risk, OPEX, прибыльность и risk-adjusted economics.
+3. **Риск и андеррайтинг** — eligibility, данные, скоринг, правила принятия решения, collateral/guarantees, мониторинг, просрочка, NPL/default, provisioning.
+4. **Продукты и функциональности** — виды кредитов, лимиты, сроки, pricing, repayment, pre-approval, integrations, servicing, refinancing/top-up и др.
+5. **Клиентские пути** — discovery → eligibility → application → data/documents → underwriting → offer → signing → disbursement → servicing → repeat borrowing.
+
+## Принцип исследования
+
+Никаких “одна цифра — один источник” и никаких догадок, замаскированных под факт.
+
+Каждый существенный вывод должен иметь:
+- географию и период;
+- определение SME / продукта / метрики;
+- источник и дату источника;
+- статус: **fact / calculation / estimate / hypothesis**;
+- уровень уверенности;
+- при возможности — независимую проверку вторым методом или источником.
+
+Для спорных или высокозначимых выводов используется source triangulation и adversarial review.
+
+## Исследовательские skills
+
+- `skills/deep-research/SKILL.md` — доказательный ресерч, source hierarchy, triangulation, contradiction handling.
+- `skills/market-sizing/SKILL.md` — TAM/SAM/SOM и фактический размер кредитного рынка; stock/flow, top-down + bottom-up.
+- `skills/competitor-benchmark/SKILL.md` — сравнение банков/финтехов по продуктам, pricing, процессам и позиционированию.
+- `skills/lending-economics/SKILL.md` — P&L и unit economics SME-кредитования.
+- `skills/credit-risk-underwriting/SKILL.md` — риск, андеррайтинг, monitoring и portfolio quality.
+- `skills/product-feature-taxonomy/SKILL.md` — единая таксономия продуктов и функциональностей.
+- `skills/customer-journey-reconstruction/SKILL.md` — восстановление реального клиентского пути только по наблюдаемым evidence.
+- `templates/company-teardown.md` — стандартный шаблон deep dive по одному игроку.
+
+## Базовые источники методологии
+
+Приоритет у первичных и регуляторных источников:
+- EBA — Guidelines on loan origination and monitoring.
+- Basel Committee / BIS — Basel Framework, credit risk.
+- OCC — Lending and Loan Portfolio Risk Management; underwriting handbooks.
+- OECD — Financing SMEs and Entrepreneurs Scoreboard.
+- Federal Reserve / Federal Reserve Banks — Small Business Credit Survey и Small Business Lending Survey.
+- FDIC — Small Business Lending Survey.
+- IFRS / локальные стандарты — impairment / expected credit loss, когда применимо.
+- годовые отчеты, Pillar 3, investor presentations и официальные product/help/legal pages исследуемых банков.
+
+## Текущий этап
+
+Сначала формируем исследовательскую операционную систему: методики, словарь метрик, source registry и шаблоны. Затем последовательно заполняем рынок и deep dives по банкам/финтехам.
+
+Список найденных и оцененных публичных agent skills: `docs/skill_scout.md`.
