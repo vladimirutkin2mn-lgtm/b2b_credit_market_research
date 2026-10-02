@@ -140,6 +140,28 @@ SBI product pages contain product imagery but a reliable complete first-party cr
 
 ---
 
+### Current digital-lending journey evidence — enriched second pass
+
+Current SBI official reporting confirms that **MSME Sahaj** is an end-to-end digital invoice-financing product available through YONO Business, while the broader BRE journey is designed for straight-through / accelerated MSME processing using bureau, GST, ITR and banking data.
+
+Current official evidence:
+- MSME Sahaj: digital GST-invoice-based financing;
+- YONO Business is the delivery channel;
+- BRE uses bureau + GST + ITR + banking data;
+- PABL is analytics-driven and based on customer history, bank relationship and cash flow;
+- SBI's published sustainability reporting describes the goal as reducing physical paperwork and branch intervention.
+
+**Historical visual evidence**
+An SBI annual report publicly showed a PABL/YONO business-loan phone screen in earlier years, demonstrating that the bank has used actual in-app pre-approved business-credit presentation. Because that visual is historical rather than a verified current FY26 screen, it is kept as **historical evidence only**, not current UI evidence.
+
+**Visual status:** current flow/product evidence is strong; current authenticated PABL/MSME Sahaj screen asset remains missing.
+
+Current primary sources:
+- SBI FY2024-25 Sustainability Report
+- SBI FY2025 Annual Report / YONO Business disclosures
+
+---
+
 ## 4. Risk architecture
 
 Observed controls:
