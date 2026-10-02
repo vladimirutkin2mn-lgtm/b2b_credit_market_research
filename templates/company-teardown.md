@@ -1,5 +1,9 @@
 # Company / Lender Teardown — <Name>
 
+> Quality standard: `docs/consulting_quality_standard.md`
+>
+> A teardown is not complete when all sections contain text. It is complete when the analysis explains **position → customer/need → product/journey → data/decision → risk → economics → structural advantage → transferability**.
+
 ## 0. Scope
 
 - Geography:
@@ -204,7 +208,37 @@ Facts only:
 
 List unanswered questions in priority order by decision value.
 
-## 13. Synthesis
+## 13. Executive synthesis
+
+### One-sentence answer
+What is the most decision-relevant conclusion about this lender?
+
+### 3–5 quantified proof points
+Only facts that materially support the answer.
+
+### Mechanism
+What causal/operating chain explains the result?
+
+### Economics / risk / UX connection
+How do customer experience, underwriting/risk and economics interact?
+
+### Strategic implication
+What should another lender learn or consider doing differently?
+
+### Transferability
+- Highly transferable / transferable with prerequisites / context-specific / insufficient evidence
+- Required data:
+- Required distribution:
+- Required funding:
+- Required regulation/infrastructure:
+
+### Counter-evidence
+What evidence weakens the main thesis?
+
+### Confidence
+High / Medium / Low.
+
+## 14. Detailed synthesis
 
 ### What is well evidenced
 
@@ -215,3 +249,20 @@ List unanswered questions in priority order by decision value.
 ### Highest-confidence takeaways
 
 ### Follow-up research
+
+## 15. Consulting quality gate
+
+Before marking the teardown complete:
+
+- [ ] Headline is a conclusion, not a topic.
+- [ ] 3–5 most important facts are quantified.
+- [ ] Fact / calculation / estimate / hypothesis are separated.
+- [ ] Main comparison is definition-normalized.
+- [ ] Causal mechanism is explicit.
+- [ ] At least one counter-evidence search was performed.
+- [ ] UX is connected to risk/economics, not analyzed in isolation.
+- [ ] Structural advantage is separated from easy-to-copy feature.
+- [ ] Transferability prerequisites are explicit.
+- [ ] Visual screens are annotated as evidence.
+- [ ] Missing evidence is visible.
+- [ ] Reader can answer: **So what?**
