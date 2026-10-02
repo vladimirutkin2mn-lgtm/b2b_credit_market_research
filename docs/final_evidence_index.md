@@ -185,7 +185,21 @@ never compare rows without checking `scope` and `comparison_status`.
 ## Business-case framework
 `docs/business_case_framework.md`
 
-Use these as a generic incumbent-bank design framework until internal bank data are available.
+## Observable benchmark envelope
+`docs/observable_benchmark_envelope.md`
+
+## Maturity model
+`docs/sme_lending_maturity_model.md`
+`data/sme_lending_maturity_model.csv`
+
+## Diagnostic scorecard
+`data/sme_lending_diagnostic_scorecard.csv`
+
+## Diagnostic questionnaire / workshop
+`templates/sme_lending_diagnostic_questionnaire.md`
+`docs/diagnostic_workshop_structure.md`
+
+Use these as a generic incumbent-bank design and diagnostic framework until internal bank data are available.
 
 ---
 
