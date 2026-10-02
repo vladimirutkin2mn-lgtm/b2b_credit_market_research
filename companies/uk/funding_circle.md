@@ -175,6 +175,39 @@ Funding Circle's product pages visibly present the 4-step journey and calculator
 
 ---
 
+### Current first-party quote journey — enriched second pass
+
+Funding Circle's current UK flow is explicitly staged:
+
+1. **eligibility check in ~30 seconds** without affecting the company credit score for eligible legal forms;
+2. **online application in ~7 minutes**;
+3. supporting documents are requested only if needed, with Open Banking / public sources used where possible;
+4. decision can be **as little as 5 minutes** on the main/current Business Loan pages;
+5. if approved, customer receives a **personalized, no-obligation quote**;
+6. after acceptance, funds are typically paid within **48 hours**.
+
+The live public calculator also exposes:
+- amount;
+- term;
+- estimated monthly repayment;
+- completion fee;
+- interest;
+- total repayable.
+
+**What it proves**
+- Funding Circle explicitly separates indicative calculator economics from the later personalized quote;
+- the digital journey uses progressive evidence collection rather than a fixed document pack;
+- “decision time” and “funding time” are distinct.
+
+**Visual status:** live first-party calculator and customer-facing journey are current; authenticated personalized-quote screen asset was not recovered.
+
+Official sources:
+- https://www.fundingcircle.com/uk/
+- https://www.fundingcircle.com/uk/small-business-loans/
+- https://www.fundingcircle.com/uk/small-business-loans-calculator/
+
+---
+
 ## 5. Economics — why Term Loans and FlexiPay differ
 
 ### H1 2026
