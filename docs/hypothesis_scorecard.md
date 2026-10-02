@@ -51,6 +51,7 @@ Not yet proven:
 - Stone: automated vs dedicated desks.
 - Funding Circle: automation influenced decision to stop serving new sole traders/partnerships in legacy-manual flow.
 - Floryn: €250k annual-account breakpoint.
+- Allica: **£75k document breakpoint** inside the same digital Business Loan product (3 vs 6 months bank statements plus richer accounts above the threshold).
 
 ## Counter-evidence
 
