@@ -139,3 +139,18 @@ Machine-readable supporting datasets:
 
 The highest-value next enrichment is **first-party customer-screen coverage** for journeys that are currently documented mainly through official text/workflow illustrations. Broad market-data filling should remain deprioritized unless a specific decision exhibit requires it.
 
+
+
+## Design synthesis
+
+The research has now been translated into a generic incumbent-bank design blueprint:
+
+- **Target Operating Model Blueprint** — `docs/target_operating_model_blueprint.md`
+- **Opportunity Map** — `data/opportunity_map.csv`
+- **Target KPI Tree** — `data/target_kpi_tree.csv`
+
+The default architecture is:
+
+**one reusable customer/data/decision layer + multiple risk-specific credit factories + one risk-adjusted economics framework.**
+
+The sequencing is intentionally generic and must be re-scored with internal bank data before becoming a bank-specific implementation plan.
