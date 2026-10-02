@@ -122,6 +122,40 @@ Official product pages document the exact app route, but no stable first-party t
 
 ---
 
+### Current official guarantee-credit screen evidence — enriched second pass
+
+Itaú's current **Emps** page includes an official mobile-app visual whose accessible description explicitly states that the app menu highlights **Pronampe e ProCred**.
+
+The current Itaú ProCred 360 / Pronampe pages document the customer journey:
+
+1. share company revenue data through **Portal e-CAC / gov.br**;
+2. open the **Itaú Empresas** app;
+3. navigate to **Crédito → Empréstimos Parcelados → Giro Pronampe / ProCred 360**;
+4. if credit is available, proceed to simulation;
+5. accept the required declarations;
+6. contract using the mobile token.
+
+The ProCred 360 page also publishes the exact revenue-data-consent path:
+- representative logs into gov.br;
+- selects Pronampe data-sharing authorization;
+- creates a new authorization;
+- chooses company revenue information;
+- enters CNPJ and calendar year.
+
+**What it proves**
+- government-program complexity is partly shifted into digital data consent;
+- eligibility depends on external government revenue data before the in-app offer can be completed;
+- the digital bank journey integrates risk-sharing/program eligibility with ordinary credit simulation/contracting.
+
+**Asset status:** official mobile app visual is present on the current Itaú Emps page, but a stable direct image URL was not recovered.
+
+Official sources:
+- https://www.itau.com.br/emps
+- https://www.itau.com.br/empresas/emprestimos-financiamentos/procred-360
+- https://www.itau.com.br/empresas/emprestimos-financiamentos/fgo
+
+---
+
 ## 4. Underwriting / risk architecture
 
 Core layers:
