@@ -213,6 +213,17 @@ never compare rows without checking `scope` and `comparison_status`.
 `docs/implementation_backlog.md`
 `data/implementation_backlog.csv`
 
+## Credit factory routing logic
+`docs/credit_factory_routing_logic.md`
+`data/factory_routing_rules.csv`
+
+## Governance / decision rights
+`docs/governance_decision_rights.md`
+`data/governance_raci.csv`
+
+## Starting-point playbooks by lender archetype
+`docs/lender_archetype_playbooks.md`
+
 Use these as a generic incumbent-bank design, diagnostic, experimentation and implementation framework until internal bank data are available.
 
 ---
