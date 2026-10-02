@@ -8,6 +8,48 @@
 
 ---
 
+## Executive synthesis — answer first
+
+**Stone is one of the clearest examples of how proprietary transaction data can compress SME credit UX — but also shows that data-rich, embedded lending does not remove underwriting risk.** Its payments relationship allows proactive offers, visible sales-linked repayment and automated monitoring; at the same time, Q2 2026 risk deterioration shows that ticket size, desk design and vintage quality still dominate portfolio outcomes.
+
+### Quantified proof points
+- Credit portfolio: **R$3.752bn** in Q2 2026.
+- Credit revenue: **R$348.5m**, up **153% YoY**.
+- NPL >90 days: **8.6%**.
+- Cost of risk: **21.5%**.
+- Government-backed loans: **R$334.2m**.
+- Official app screens document pre-approved offer, status tracking and repayment servicing.
+
+### Mechanism
+Acquiring relationship
+→ daily merchant-sales visibility
+→ automated/pre-approved credit
+→ fewer borrower inputs
+→ sales-linked repayment
+→ high-frequency monitoring.
+
+But:
+larger tickets / dedicated desk / weaker vintages
+→ materially different loss behavior.
+
+### Strategic implication
+The transferable lesson is not simply “use transaction data.” The stronger design principle is to build **separate operating and risk lanes** by ticket/complexity while exploiting transaction data for the low-friction lane.
+
+### Transferability
+**Transferable with prerequisites.**
+
+Required:
+- high-frequency merchant or transaction data;
+- embedded distribution;
+- repayment control/integration;
+- ability to separate automated and larger-ticket credit policies;
+- strong vintage monitoring.
+
+### Counter-evidence
+Stone's own 2026 risk metrics weaken any simplistic thesis that embedded/acquiring data automatically produces superior credit quality. The model improves information and process design; it does not eliminate adverse selection, underwriting mistakes or vintage deterioration.
+
+---
+
 ## 0. Why Stone is important
 
 Stone is a particularly valuable research case because public evidence connects all four layers:
