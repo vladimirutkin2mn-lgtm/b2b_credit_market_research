@@ -201,6 +201,21 @@ https://www.americanexpress.com/en-us/business/blueprint/help-center/business-li
 
 ---
 
+### Rabobank live first-party journey
+
+Rabobank's current live financing UI provides:
+**30-second price indication → data sharing / transaction connection → direct personalized offer → adviser → final offer/signing**.
+
+For the bounded ≤€250k / 5-year route, 13 months of transaction data can make annual accounts optional.
+
+**Screen status:** current interactive first-party journey verified; stable static personalized-offer asset missing.
+
+Sources:
+- https://www.rabobank.nl/bedrijven/zakelijk-financieren
+- https://www.rabobank.nl/bedrijven/zakelijk-financieren/bereken-indicatie
+
+---
+
 # Journey B — New-to-lender digital unsecured credit
 
 ## Core insight
@@ -357,6 +372,25 @@ https://konfio.mx/credito/
 
 ---
 
+## B4. Funding Circle — progressive evidence collection
+
+Eligibility ~30 sec  
+→ application ~7 min  
+→ Open Banking/public data where possible  
+→ documents only if needed  
+→ decision as little as 5 min  
+→ personalized no-obligation quote  
+→ funds typically within 48h.
+
+The live public calculator exposes amount, term, estimated monthly repayment, completion fee, interest and total repayable before the personalized quote.
+
+**Screen status:** current live calculator / journey UI verified; authenticated personalized quote remains missing.
+
+Source:
+https://www.fundingcircle.com/uk/small-business-loans/
+
+---
+
 # Journey C — Medium-SME relationship lending
 
 ## Core insight
@@ -461,6 +495,28 @@ Four-step journey documented on official page; actual customer screens unavailab
 
 Source:
 https://www.commerzbank.de/unternehmerkunden/finanzierungen/gewerbekredit/
+
+---
+
+### SBI current digital factory evidence
+
+Current SBI reporting confirms:
+- MSME Sahaj as end-to-end digital GST-invoice financing through YONO Business;
+- BRE straight-through/accelerated underwriting using bureau, GST, ITR and banking data;
+- analytics-driven PABL based on existing customer history and cash flow.
+
+**Screen status:** current product journey strongly documented; current authenticated SME-loan screen remains missing. Historical SBI annual reports contain earlier PABL/YONO visuals and are retained only as historical evidence.
+
+---
+
+### Commerzbank current four-stage flow
+
+Current official journey:
+**2-minute online application → optional document upload → adviser within 48h → activation after approval**.
+
+Up to €100k can be decided directly in the adviser conversation.
+
+**Screen status:** current stage-level first-party evidence verified; online form / adviser-decision screens missing.
 
 ---
 
@@ -652,6 +708,18 @@ Official sources:
 
 ---
 
+### UGRO embedded partner-platform journey
+
+Current first-party flow:
+**platform transaction pre-qualification → GRO Score automated evaluation → pre-approved offer in partner platform → digital KYC/consent → disbursal in minutes/hours**.
+
+**Screen status:** current official five-stage process visual verified; real third-party partner-app offer screen remains missing.
+
+Source:
+https://www.ugrocapital.com/embedded-financing
+
+---
+
 # Journey E — Guarantee-backed SME credit
 
 ## Core insight
@@ -726,6 +794,20 @@ Official sources:
 - https://www.itau.com.br/empresas/emprestimos-financiamentos/fgo
 
 **Screen coverage: Medium for official app/product evidence; detailed simulation/offer/token screens remain missing.**
+
+---
+
+### Bibby — recurring receivables portal journey
+
+After the invoice-finance facility is established, the journey becomes:
+**invoice → advance within 24h → collection → remaining balance → 24/7 portal monitoring**.
+
+Bibby explicitly states that clients can review funding, invoice status and the sales ledger through its secure Client Portal.
+
+**Screen status:** portal functionality verified; public portal screenshots missing.
+
+Source:
+https://www.bibbyfinancialservices.com/construction-finance
 
 ---
 
