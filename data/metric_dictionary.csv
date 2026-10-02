@@ -1,0 +1,100 @@
+metric_id,metric_family,canonical_name,unit,period_type,preferred_denominator,comparison_warning
+MKT_LOAN_STOCK_SME,market,SME outstanding loan stock,currency,stock,,Do not mix with originations or committed limits
+MKT_LOAN_STOCK_BUSINESS_TOTAL,market,Total business loan stock,currency,stock,,Coverage must match SME numerator
+MKT_SME_SHARE_STOCK,market,SME share of business loan stock,percent,stock,total business loan stock,Do not mix with share of new lending
+MKT_NEW_LENDING_SME,market,New SME lending,currency,flow,,Source may mean origination signed or disbursed
+MKT_NEW_LENDING_BUSINESS_TOTAL,market,Total new business lending,currency,flow,,Keep business population aligned
+MKT_SME_SHARE_NEW_LENDING,market,SME share of new business lending,percent,flow,total new business lending,Do not mix with stock share
+MKT_AVG_LOAN_BOOK,market,Average loan book,currency,average,,Prefer granular average over simple opening-closing
+MKT_BORROWING_FIRMS,market,Number of borrowing SMEs,count,stock_or_period,,Distinguish active borrowers and borrowers during period
+MKT_AVG_OUTSTANDING_PER_BORROWER,market,Average outstanding per borrower,currency,stock,active borrowers,Numerator and borrower population must align
+MKT_AVG_ORIGINATION_SIZE,market,Average origination size,currency,flow,booked loans,Do not mix with requested amount or limit
+FUNNEL_FINANCING_NEED_RATE,funnel,Financing need rate,percent,period,relevant SME survey population,Survey denominator must be retained
+FUNNEL_APPLICATION_RATE,funnel,Application rate,percent,period,relevant SME population,Denominator varies across surveys
+FUNNEL_APPLICATIONS_COUNT,funnel,Applications count,count,period,,One borrower may create multiple applications
+FUNNEL_REQUESTED_AMOUNT,funnel,Requested amount,currency,period,,Not approved or disbursed amount
+FUNNEL_APPROVAL_RATE,funnel,Approval rate,percent,period,completed applications,Full partial and conditional approvals differ
+FUNNEL_FULL_APPROVAL_RATE,funnel,Full approval rate,percent,period,completed applications,Keep separate from partial approvals
+FUNNEL_PARTIAL_APPROVAL_RATE,funnel,Partial approval rate,percent,period,completed applications,Keep separate from full approvals
+FUNNEL_REJECTION_RATE,funnel,Rejection rate,percent,period,completed applications,Do not infer as one minus approval unless exhaustive
+FUNNEL_WITHDRAWAL_RATE,funnel,Withdrawal rate,percent,period,submitted applications,May reflect friction or borrower choice
+FUNNEL_BOOKED_CONVERSION,funnel,Booked conversion,percent,period,submitted applications,Not the same as approval rate
+FUNNEL_APPROVAL_TO_BOOK,funnel,Approval-to-book conversion,percent,period,approved applications,Measures post-approval leakage
+FUNNEL_DISCOURAGED_BORROWER_RATE,funnel,Discouraged borrower rate,percent,period,finance-needing firms,Survey reason definitions vary
+PRICE_BORROWER_NOMINAL_RATE,pricing,Borrower nominal rate,percent,contract,,Not APR yield or NIM
+PRICE_APR_EFFECTIVE_RATE,pricing,APR or effective rate,percent,contract,,Local methodology varies
+PRICE_SPREAD_TO_REFERENCE,pricing,Spread to reference rate,bps,period,reference rate,Always identify reference
+PRICE_ORIGINATION_FEE_RATE,pricing,Origination fee rate,percent,contract,original principal,Separate one-off and recurring fees
+REV_INTEREST_INCOME,revenue,Interest income,currency,flow,,Scope must be SME/product specific when used
+REV_FEE_INCOME_LENDING,revenue,Lending fee income,currency,flow,,Accounting treatment varies
+ECON_GROSS_LOAN_YIELD,economics,Gross loan yield,percent,period,average gross loans,Not borrower advertised rate
+ECON_NET_INTEREST_INCOME,economics,Net interest income,currency,flow,,Segment scope required
+ECON_NIM,economics,Net interest margin,percent,period,average earning assets,Do not use bank-wide NIM as SME spread
+FUND_INTEREST_EXPENSE,funding,Funding interest expense,currency,flow,,Funding scope must be explicit
+FUND_AVG_COST,funding,Average funding cost,percent,period,average interest-bearing funding,Not marginal cost
+FUND_MARGINAL_COST,funding,Marginal funding cost,percent,point_in_time_or_period,,Often estimated
+FUND_GROSS_SPREAD,funding,Gross spread,percent,period,,Only if yield and funding cost scopes align
+FUND_DEPOSIT_SHARE,funding,Deposit funding share,percent,stock,total funding,Not a direct measure of funding cost
+RISK_DPD_1_PLUS,risk,Any past-due exposure ratio,percent,stock,gross exposure,Materiality rules vary
+RISK_DPD_30_PLUS,risk,30+ DPD ratio,percent,stock,gross exposure,Threshold conventions differ
+RISK_DPD_60_PLUS,risk,60+ DPD ratio,percent,stock,gross exposure,Threshold conventions differ
+RISK_DPD_90_PLUS,risk,90+ DPD ratio,percent,stock,gross exposure,Not automatically default or NPL
+RISK_DEFAULT_RATE_OBLIGOR,risk,Obligor default rate,percent,period,eligible obligors,Do not mix with exposure-weighted default rate
+RISK_DEFAULT_RATE_EXPOSURE,risk,Exposure-weighted default rate,percent,period,eligible exposure,Do not mix with obligor default rate
+RISK_PD,risk,Probability of default,percent,horizon,,Store horizon and PIT/TTC basis
+RISK_NPL_RATIO,risk,NPL ratio,percent,stock,gross loans,NPL definition must be retained
+RISK_NPE_RATIO,risk,NPE ratio,percent,stock,gross exposures,Do not silently map to NPL
+RISK_STAGE2_RATIO,risk,IFRS 9 Stage 2 ratio,percent,stock,relevant gross carrying amount,Not equivalent to 30+ DPD
+RISK_STAGE3_RATIO,risk,IFRS 9 Stage 3 ratio,percent,stock,relevant gross carrying amount,Not identical to NPL/default
+RISK_ECL_ALLOWANCE,risk,ECL or credit loss allowance,currency,stock,,Accounting framework required
+RISK_ALLOWANCE_RATIO,risk,Allowance ratio,percent,stock,gross loans,Portfolio scopes must match
+RISK_NPL_COVERAGE,risk,NPL coverage ratio,percent,stock,non-performing loans,Numerator and denominator must match
+RISK_PROVISION_EXPENSE,risk,Provision or impairment expense,currency,flow,,Not realized credit loss
+RISK_COST_OF_RISK,risk,Cost of risk,percent,period,average gross loans,Numerator differs by lender
+RISK_GROSS_CHARGEOFF,risk,Gross charge-offs,currency,flow,,Before recoveries
+RISK_RECOVERIES,risk,Recoveries,currency,flow,,Previously charged-off loans
+RISK_NET_CHARGEOFF,risk,Net charge-offs,currency,flow,,May include reporting adjustments
+RISK_NET_CHARGEOFF_RATE,risk,Net charge-off rate,percent,period,average gross loans,Not provision-based cost of risk
+RISK_VINTAGE_CUM_LOSS,risk,Cumulative vintage loss,percent,vintage,original cohort principal,Months-on-book and loss definition required
+RISK_LGD,risk,Loss given default,percent,horizon,EAD,Modeled vs realized must be retained
+RISK_EAD,risk,Exposure at default,currency,horizon,,Revolving facilities may include future drawings
+RISK_EXPECTED_LOSS,risk,Expected loss,currency_or_percent,horizon,,Do not equate automatically with accounting ECL
+COLLATERAL_REQUIRED_RATE,collateral,Collateral required rate,percent,period,relevant borrowers_or_loans,Survey vs booked-loan basis differs
+COLLATERAL_LTV,collateral,Loan-to-value,percent,point_in_time,eligible collateral value,Valuation and haircut basis required
+GUARANTEE_COVERAGE_RATE,guarantee,Guarantee coverage rate,percent,stock_or_flow,covered exposure,Store guarantee type
+GUARANTEED_LOAN_STOCK,guarantee,Government/third-party guaranteed loan stock,currency,stock,,Not amount of guarantees outstanding
+OPS_TIME_TO_DECISION,operations,Time to decision,time,journey,,Start and end events required
+OPS_TIME_TO_CASH,operations,Time to cash,time,journey,,Not time to decision
+OPS_STP_RATE,operations,Straight-through-processing rate,percent,period,eligible applications,Definitions vary
+OPS_MANUAL_REVIEW_RATE,operations,Manual review rate,percent,period,eligible applications,Not always one minus STP
+OPS_ADDITIONAL_INFO_RATE,operations,Additional-information request rate,percent,period,submitted applications,Useful friction metric
+UX_STEPS_COUNT,journey,Customer-visible steps/screens,count,journey,,Scenario and date required
+UX_REQUIRED_FIELDS_COUNT,journey,Required user-entered fields,count,journey,,Separate autofilled fields
+UX_DOCUMENTS_REQUIRED_COUNT,journey,Required document types,count,journey,,Separate uploads from integrations
+UX_DATA_CONNECTIONS_COUNT,journey,External data connections,count,journey,,Store connection types
+UX_PRICING_TRANSPARENCY,journey,Pricing transparency,categorical,journey,,Descriptive not composite score
+UX_SCREEN_COVERAGE_RATE,journey,Screen evidence coverage,percent,journey,key customer-visible stages,Never use generated screens as evidence
+COST_ACQUISITION,cost,Acquisition cost,currency,period_or_unit,,Allocation method required
+COST_UNDERWRITING,cost,Underwriting/KYB/KYC cost,currency,period_or_unit,,Often estimated
+COST_SERVICING,cost,Servicing cost,currency,period_or_unit,,Scope required
+COST_COLLECTIONS,cost,Collections cost,currency,period_or_unit,,Scope required
+ECON_COST_TO_INCOME,economics,Cost-to-income ratio,percent,period,operating income,Usually segment/company level
+ECON_CONTRIBUTION_PRE_CAPITAL,economics,Pre-capital lending contribution,currency,period,,Calculated only when allocations are defensible
+ECON_RISK_ADJ_CONTRIBUTION,economics,Risk-adjusted contribution,currency,period,,Capital charge assumptions required
+ECON_ROA_LOANS,economics,Return on lending assets,percent,period,average loan assets,Not company ROA
+ECON_RAROC,economics,RAROC,percent,period,allocated capital,Methodologies vary materially
+ECON_CAC_PAYBACK,economics,CAC payback,time,cohort,,Needs cohort contribution
+CAP_RWA,capital,Risk-weighted assets,currency,stock,,Relevant portfolio scope required
+CAP_RWA_DENSITY,capital,RWA density,percent,stock,exposure measure,Denominator must be explicit
+CAP_CET1_ALLOCATED,capital,Allocated CET1/economic capital,currency,stock,,Often unavailable publicly
+CAP_RETURN_ON_ALLOCATED_CAPITAL,capital,Return on allocated capital,percent,period,allocated capital,Do not label RAROC without risk adjustment
+MIX_SECURED_SHARE,mix,Secured exposure share,percent,stock,total relevant exposure,Security definition required
+MIX_UNSECURED_SHARE,mix,Unsecured exposure share,percent,stock,total relevant exposure,Security definition required
+MIX_REVOLVING_SHARE,mix,Revolving exposure share,percent,stock,total relevant exposure,Product definition required
+MIX_SHORT_TERM_SHARE,mix,Short-term SME loan share,percent,stock_or_flow,total SME loans,Store stock vs flow and maturity definition
+MIX_EXISTING_CUSTOMER_SHARE,mix,Existing-customer origination share,percent,flow,originations,Existing relationship definition required
+MIX_REPEAT_BORROWER_SHARE,mix,Repeat borrower share,percent,period,booked borrowers_or_loans,Not equal to existing customer
+GROWTH_YOY_STOCK,growth,YoY loan stock growth,percent,period,prior comparable stock,Check FX acquisitions and reclassifications
+GROWTH_YOY_ORIGINATIONS,growth,YoY origination growth,percent,period,prior comparable originations,Comparable definition required
+GROWTH_CAGR,growth,CAGR,percent,multi_period,beginning value,Use comparable series only
+GROWTH_REAL,growth,Real growth,percent,period,,State deflator
