@@ -163,6 +163,35 @@ Stable direct image-asset URLs were not captured, so the repo links the official
 
 ---
 
+### Screen evidence — enriched second pass
+
+#### Business Blueprint dashboard
+
+![Amex BLOC — Business Blueprint start](https://www.americanexpress.com/content/dam/amex/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/InstantDeposit_step1a.png)
+
+#### Business Line of Credit home / start draw
+
+![Amex BLOC — Fund my account](https://www.americanexpress.com/content/dam/amex/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/InstantDeposit_step2b.png)
+
+#### Deposit-location selection
+
+![Amex BLOC — deposit location](https://www.americanexpress.com/content/dam/amex/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/Step-2a.png)
+
+#### Successful instant deposit
+
+![Amex BLOC — success](https://www.americanexpress.com/content/dam/amex/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/Step-3.jpg)
+
+**What the official sequence proves**
+- repeat draw starts inside Business Blueprint/BLOC rather than a fresh application;
+- deposit destination is selected in-flow;
+- Amex Business Checking is explicitly integrated as an instant-deposit destination;
+- successful completion returns the user toward account access.
+
+Official source:
+https://www.americanexpress.com/en-us/business/blueprint/help-center/business-line-of-credit/how-to-instant-deposit/
+
+---
+
 ## 6. Risk context
 
 ### BLOC-specific risk disclosure gap
