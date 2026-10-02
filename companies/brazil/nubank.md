@@ -8,6 +8,42 @@
 
 ---
 
+## Executive synthesis — answer first
+
+**Nubank's SME credit advantage is primarily an account-and-data advantage, not merely a faster digital form.** Nu Empresas embeds credit into an existing 6-million-customer business-account relationship, continuously re-evaluates eligibility in the background, and only exposes the visible borrowing flow after an offer exists. The result is a short customer journey because part of underwriting has already happened before the customer starts applying.
+
+### Quantified proof points
+- **6 million** Nu Empresas customers by May 2026.
+- Group deposits of **US$45.3bn** support a deposit-funded balance-sheet context, although this is not SME-specific.
+- Capital de Giro funds are deposited **immediately after approval**.
+- FGI-PEAC publicly advertises decisioning up to **24 hours** and rates from **1.75% per month**.
+
+### Mechanism
+Business-account relationship
+→ transaction/relationship signals
+→ recurring automated eligibility analysis
+→ proactive in-app offer
+→ reduced visible data-entry burden
+→ digital contracting
+→ immediate in-account funding.
+
+### Strategic implication
+For another lender, the transferable lesson is not “copy Nubank's screens.” The prerequisite is a sufficiently rich ongoing customer relationship or equivalent data feed that allows underwriting to move upstream of the visible application.
+
+### Transferability
+**Transferable with prerequisites.**
+
+Required:
+- existing transactional relationship or equivalent consented data;
+- digital identity and contracting;
+- strong pre-offer decisioning;
+- servicing inside the same account/app.
+
+### Counter-evidence / limitation
+Public information does **not** disclose Nu Empresas-specific loan book, approval rate, NPL, cost of risk or unit economics. Therefore we can conclude that the journey mechanism is strong; we cannot yet conclude that the SME credit portfolio has superior risk-adjusted economics.
+
+---
+
 ## 0. Scope and comparability
 
 This teardown distinguishes three evidence levels:
