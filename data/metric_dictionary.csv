@@ -98,3 +98,5 @@ GROWTH_YOY_STOCK,growth,YoY loan stock growth,percent,period,prior comparable st
 GROWTH_YOY_ORIGINATIONS,growth,YoY origination growth,percent,period,prior comparable originations,Comparable definition required
 GROWTH_CAGR,growth,CAGR,percent,multi_period,beginning value,Use comparable series only
 GROWTH_REAL,growth,Real growth,percent,period,,State deflator
+FUNNEL_CREDIT_CONSTRAINT_RATE,funnel,Credit constraint rate,percent,period,credit-seeking_or_interested_firms,Denominator and constraint definition must be preserved
+PRICE_EFFECTIVE_NEW_LENDING_RATE,pricing,Effective rate on new lending,percent,period,new lending balance_or_contracts,Do not call APR unless source methodology supports it
