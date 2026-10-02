@@ -104,3 +104,4 @@ MKT_SME_BUSINESS_COUNT,market,SME or small-business count,count,point_in_time_or
 MKT_REGISTERED_SME_COUNT,market,Registered/formalised SME count,count,point_in_time,,Not total economic SME universe
 MKT_LENDER_ARCHETYPE_SHARE_NEW_LENDING,market,Lender archetype share of new lending,percent,flow,total relevant new lending,Specify lender archetype and denominator
 FUNNEL_EXTERNAL_FINANCE_USAGE_RATE,funnel,External finance usage rate,percent,period,relevant SME population,Not application or financing-need rate
+PRICE_AVG_OUTSTANDING_LOAN_RATE,pricing,Average interest rate on outstanding loans,percent,stock_or_period,outstanding loan stock,Do not mix with new-lending rate APR or accounting yield
