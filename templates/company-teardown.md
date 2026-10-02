@@ -71,10 +71,48 @@ For one normalized scenario:
 
 **Scenario:** <borrower, amount, purpose, new/existing customer>
 
-| Stage | User action | Data/docs | Waiting/SLA | Outcome | Evidence type | Source |
-|---|---|---|---|---|---|---|
+| Stage | User action | Data/docs | Waiting/SLA | Outcome | Evidence type | Screen evidence | Source |
+|---|---|---|---|---|---|---|---|
 
 Keep Customer-visible and Backstage/inferred steps separate.
+
+### 5.1 Visual customer journey / screenflow
+
+Customer journey should be supported by client-facing screens wherever reasonably obtainable.
+
+For each key screen:
+
+| Stage | Screen / file / link | Evidence type | Capture date | What the screen proves | Notes |
+|---|---|---|---|---|---|
+
+Preferred visual evidence:
+1. own observed walkthrough;
+2. official application/product screens;
+3. official app screenshots;
+4. official demo/video/help-center visuals;
+5. user-posted screenshots as supplementary evidence.
+
+Target screens where available:
+- discovery / landing;
+- eligibility / pre-check;
+- application start;
+- business / owner data;
+- data-source connection;
+- document upload;
+- application status / waiting;
+- additional-info request;
+- decision;
+- offer: amount / term / pricing / fees;
+- guarantee / collateral disclosure;
+- signing;
+- disbursement confirmation;
+- servicing dashboard;
+- repayment / payoff;
+- renewal / top-up / limit increase.
+
+If a key customer-visible stage has no screenshot or screenflow evidence, mark explicitly: **screen evidence missing**.
+
+Screens are evidence, not decoration: annotate relevant fields, disclosure, automation, friction and navigation. Never recreate an unobserved screen and present it as factual evidence.
 
 ## 6. Underwriting and risk
 
