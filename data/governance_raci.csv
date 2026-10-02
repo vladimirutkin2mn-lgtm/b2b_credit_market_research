@@ -1,0 +1,30 @@
+activity,factory_owner,product,risk_credit,finance_treasury,operations,data_technology,legal_compliance
+Factory strategy,A,R,C,C,C,C,C
+Customer proposition,A,R,C,C,C,C,C
+Risk appetite,C,C,A,C,I,I,C
+Eligibility policy,C,C,A,C,I,C,C
+Model/score approval,I,I,A,C,I,R,C
+Limit/tenor policy,C,C,A,C,I,C,C
+Pricing framework,C,R,C,A,I,C,C
+Customer journey,A,R,C,I,C,R,C
+Data-source onboarding,C,C,A,I,C,R,C
+KYB standard,I,I,C,I,R,C,A
+Case orchestration,A,R,C,I,R,R,C
+Automated decision service,C,C,A,I,I,R,C
+Manual exception handling,I,C,A,I,R,C,C
+Delegated authority,I,I,A,I,C,I,C
+Offer/contract,C,R,C,C,C,R,A
+Funding/fulfillment,I,C,I,A,R,R,C
+Monitoring policy,C,C,A,C,R,R,C
+Collections strategy,C,C,A,C,R,C,C
+Guarantee program economics,C,C,C,A,R,C,C
+Guarantee eligibility/claims,C,I,A,C,R,C,C
+Funding structure,I,I,C,A,I,C,I
+Capital methodology,I,I,C,A,I,I,C
+Factory P&L,A,C,C,R,C,C,I
+Risk-adjusted contribution,A,C,C,R,C,C,I
+Pilot design,A,R,A,C,C,R,C
+Pilot loss guardrails,C,C,A,C,I,C,C
+Policy versioning,I,I,A,I,I,R,C
+Model/data lineage,I,I,C,I,I,A,C
+Regulatory disclosures,I,C,C,I,C,R,A
