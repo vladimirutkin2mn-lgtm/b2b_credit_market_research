@@ -170,7 +170,19 @@ https://www.allica.bank/business-loans
 
 ## 4. Underwriting and risk architecture
 
-Publicly evidenced inputs:
+### £75,000 document breakpoint
+
+Current official Business Loan guidance adds a second underwriting breakpoint inside the £25,001–£150,000 product:
+
+- **up to £75,000:** three months of business bank statements plus 12 months management accounts (less than 60 days old) **or** two years full accounts where sufficiently recent;
+- **over £75,000:** six months of business bank statements plus two years accounts, and management accounts if the latest filed accounts are more than six months old;
+- applicants may also be asked for an assets / liabilities / income / expenditure statement.
+
+Allica also publishes a minimum **150% debt-service-cover** eligibility requirement for this product.
+
+This is important because the public journey remains digitally simple while the evidence burden increases with exposure.
+
+### Publicly evidenced inputs:
 - bank statements;
 - statutory/company accounts;
 - management accounts;
