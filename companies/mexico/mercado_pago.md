@@ -184,6 +184,39 @@ The documented flow is strong; visual evidence remains a priority gap.
 
 ---
 
+### Current 2026 business-credit flow — enriched second pass
+
+Current Mercado Pago Mexico guidance now states the full in-app business-credit path:
+
+1. enter the Mercado Pago business account;
+2. go to **Préstamos / Créditos**;
+3. review the **available pre-approved offer**;
+4. select **amount and term**;
+5. accept terms;
+6. funds are credited **immediately** to the Mercado Pago account.
+
+The current business-credit product page separately shows:
+- Dinero Plus up to MXN1.25m;
+- Cuotas Fijas up to MXN6m / 24 monthly installments;
+- a live **"Ingresa un monto"** interaction;
+- eligibility tied to Mercado Pago score and recurring sales activity.
+
+A current 2026 article states that the merchant's sales history directly affects **amount, term and rate**.
+
+**What it proves**
+- the customer starts from a pre-underwritten personalized offer rather than a blank credit application;
+- configuration is amount/term centric;
+- merchant sales history is not merely an eligibility input: it affects commercial terms.
+
+**Screen status:** current first-party product UI / live amount interaction observed; a stable authenticated offer-screen asset remains missing.
+
+Official sources:
+- https://www.mercadopago.com.mx/mercado-credito/prestamos-negocio-online
+- https://www.mercadopago.com.mx/blog/prestamos-para-negocios
+- https://www.mercadopago.com.mx/blog/historial-ventas-credito-pyme
+
+---
+
 ## 5. Credit scale and economics
 
 ### Merchant credit — regional
