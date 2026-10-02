@@ -116,6 +116,28 @@ This is a priority gap for the Visual Journey Atlas.
 
 ---
 
+### Current servicing-stage evidence — enriched second pass
+
+Bibby Financial Services' current construction/invoice-finance pages explicitly document a recurring client-portal journey:
+
+1. establish the facility;
+2. submit / generate eligible invoices;
+3. access an agreed percentage of invoice value, often within 24 hours;
+4. Bibby handles / supports collection depending facility;
+5. customer can check funding, invoice status and sales ledger **24/7 through the secure Client Portal**.
+
+**What it proves**
+- invoice finance has a persistent servicing workspace, not a one-off loan application;
+- customer value includes continuous visibility over funding availability and receivables state;
+- the recurring customer journey is operationally tied to invoice creation/collection.
+
+**Visual status:** current first-party portal capability is explicitly documented, but public portal screenshots were not found.
+
+Official source:
+https://www.bibbyfinancialservices.com/construction-finance
+
+---
+
 ## 4. Underwriting / risk architecture
 
 Risk depends on:
