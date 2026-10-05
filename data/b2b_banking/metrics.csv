@@ -1,0 +1,1 @@
+metric_observation_id,metric_id,company,geography,customer_segment,legal_form,product,value,unit,currency,period_start,period_end,as_of_date,denominator,scope,definition,source_ids,claim_ids,evidence_status,confidence,formula,input_metric_ids,assumptions,limitations
