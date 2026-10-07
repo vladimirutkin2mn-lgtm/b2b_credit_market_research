@@ -67,3 +67,15 @@ BB-G18 продвинут только для Tide договорных роле
 BB-X0006 разрешён по дате действия: опубликованный Appendix19 Membership PDF имеет fee schedule from **1 December 2026**, не текущий transaction tariff на **7 October 2026**. Числовые цены плана сохранены по HTML; будущие транзакционные ставки не импортированы. BB-X0007 — различие UK members/SMEs партнёра частично объясняется датами и границами, определения населения всё ещё не согласованы. Из этих чисел не рассчитаны активность, конверсия, удержание или прибыль.
 
 В sources 26 новых записей, включая неудачные/неполные проверки; это не 26 полностью подтверждённых источников. Визуально проверенных клиентских экранов Tide нет. Приёмка публичного профиля не закрывает BB-06/08/11.
+
+## Дополнение BB-05 — Mercury US, 2026-10-07
+
+| ID | Результат ограниченного поиска и остаток | Какое решение ограничено | Условие возвращения |
+|---|---|---|---|
+| BB-G27 | Прочитаны Annual Letter / Series D и pricing. Company-reported run-rate и mixed customers внесены с scope; аудированный P&L, кредитный stock/flow, CAC/retention/credit cohorts не получены. Это не доказательство отсутствия отчётности вообще | Прибыльность трёх входов, share of primary accounts, перенос активности в credit eligibility | BB-08: первичная финансовая отчётность и единые когорты; не импортировать данные Mercury Systems или иных одноимённых компаний |
+| BB-G28 | IO договор / WC help и OCC conditional decision прочитаны. Patriot/Choice/Column/Mercury Lending/Mercury Servicing разделены. Индивидуальный loan agreement, точная формула cash cap стандартной IO, риск/funding и независимая выгрузка permissions неизвестны; текущий FAQ сохраняет bank organisation phase | Условия клиентского обещания, полнота юридической проверки и прибыль после риска | Индивидуальные договоры и первичные регистры; окончательный OCC/FDIC/Fed документ до утверждения о запуске |
+| BB-G29 | Продуктовые страницы и датированные релизы Command/Spend/Books прочитаны; IO-only early access. BB-V0006–0009 — missing visual verification. Plus/Pro price toggle extraction неоднозначна и не нормализована | Полный UI, массовая доступность, measured product effect, сопоставимость подписок | BB-06/09: разрешённые официальные изображения/ролики, текущие billing terms и реальные adoption/outcomes |
+
+BB-X0008: preliminary charter approval отделено от открытия. BB-X0009: Books headline free2026 уточнён footnote условий waiver. BB-X0010: IO-only не смешивается с cash-linked standard IO; точная формула standard exposure остаётся неизвестной. BB-X0011: заявления о непреодолимости agent controls не отменяют договорной ответственности клиента; фактическая эффективность не тестировалась.
+
+BB-G18 продвинут для Mercury договорных ролей, но не закрыт по независимым разрешениям/держателю риска. Company-reported 300k+ mixed customers не превратились в active РКО юрлица; 650M annualized September2025 не превращён в FY2025 revenue; transaction volume не превратился в выдачи. Приёмка публичного профиля не закрывает BB-06/08/11.

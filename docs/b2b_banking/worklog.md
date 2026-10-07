@@ -92,3 +92,17 @@ Allica Bank подтверждён списком PRA September 2026. Креди
 Годовая отчётность Tide Platform FY2025 зарегистрирована, но PDF/iXBRL не прочитаны; кредитор overview/history различаются по обновлению, PDFFY2024 тоже ошибка. Не объявлять финансовые данные отсутствующими вообще; не брать цифры Crimson Tide plc/Tidewater или агрегатора. Базу members не называть активными расчётными клиентами. BB-G24–26 открыты.
 
 Приёмка: профиль в пределах публичных источников; проверка CSV/ID/связей и метрик/чисел, отсутствие вымышленных экранов, сохранение старых записей, 3 done и 11 todo. После сохранения — точное сравнение файлов на SHA результата; SHA фиксируется в #9/#11. BB-05 остаётся in_progress, следующая компания Mercury US. Итоговый PDF впереди.
+
+## 2026-10-07 — BB-05: Mercury US, второй отдельный профиль
+
+Вход: commit `ecf8738c896ca668022affdf3b069f17be48ed93`. Применены уже прочитанные deep-research, шаблон и evidence protocol. До поиска: workflows→activity; spend→credit; venture debt как отдельный вход; conditional bank approval как возможное изменение действующей модели. Искались ограничения cash-underwriting, внешних банковских связей, US/California, funding/risk и bank preopening.
+
+Первичные help/contract/product прочитаны раньше company financial disclosures; OCC Corporate Decision1372 PDF прочитан в целевых разделах. IO issuer/lender Patriot, deposit banks Choice/Column, WC/VD lender Mercury Lending и servicer Mercury Servicing раздельно. Current FAQ organisation phase согласован с conditional approval; окончательный запуск собственного банка не доказан.
+
+Существенное дополнение: IO-only early access без Mercury deposit account и Working Capital application до открытия счёта, который нужен перед выдачей. Daily standard IO не приравнена к длительному оборотному кредиту. Проверены June2026 Command, August2026 Spend/Agent Cards и September2026 Books; сохранены человеческое approval, client liability и условия Books waiver.
+
+Добавлены BB-S0079–0098 (20), BB-C0115–0146 (32), BB-M0056–0075 (20), 10 источниковых определений, BB-F0016–0024 (9), BB-J0034–0049 (16), BB-V0006–0009 (4 missing), BB-X0008–0011 (4). Всего 98/146 sources/claims, 75 metrics, 84 definitions, 24 features, 49 steps, 9 screen records, 0 visually verified и 11 contradictions. Реальные заявки/счёт/платежи не выполнялись.
+
+Annualized revenue650M на September/Q32025 и volume за календарные годы записаны как company-reported, не audited P&L. Customers300k+ смешаны business/personal — не active legal-entity РКО. Price toggle Plus/Pro не нормализован из неоднозначного извлечения. Аудированные финансы/когорты/individual risk/real UI неизвестны; BB-G27–29. Поиск закрыт в принятом публичном объёме, не как отсутствие данных вообще.
+
+Приёмка: CSV/уникальные ID/связи/сохранение старых строк, scope/period/bound метрик, 4 done / 10 todo. После записи — сравнение полного текста файлов на фиксированном SHA; SHA в #9/#11. BB-05 in_progress: 2 из 12, следующий Ramp US. Итоговый PDF впереди.
