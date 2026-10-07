@@ -1,0 +1,22 @@
+[
+  {
+    "path": "assets/b2b_banking/stone/official-1.png",
+    "original_url": "https://martech-web-cdn.stone.com.br/incoming/stone/ff5bb063-6131-4513-a28a-4db751db571e/1.-Cap-Step-Desktop.jpg?h=540&w=660",
+    "accessed_date": "2026-10-07",
+    "evidence_type": "official_illustration",
+    "bytes": 1284491,
+    "sha256": "d8364b710255bbe2742dfc95ab9d6664b9aef6daafadd5eb812cd20aff705cc9",
+    "git_blob_sha1": "02ad345e80e1d3a9434a61c07af77434d9ef140d",
+    "transformation": "JPEG decoded to PNG without content edits; not a live observed customer journey"
+  },
+  {
+    "path": "assets/b2b_banking/stone/official-2.png",
+    "original_url": "https://martech-web-cdn.stone.com.br/image-service/incoming/stone/ecd2e899-009f-429c-b07f-ffff1106006f/stone-limite-da-conta-1.jpg?h=600&w=660",
+    "accessed_date": "2026-10-07",
+    "evidence_type": "official_illustration",
+    "bytes": 141147,
+    "sha256": "63b518f84e656ad64f8d065f974696d3ed4da2c1038e42f52f48360089f8e999",
+    "git_blob_sha1": "a16e88b802ea821ca89c123f53b13a4f9c84be04",
+    "transformation": "JPEG decoded to PNG without content edits; not a live observed customer journey"
+  }
+]
