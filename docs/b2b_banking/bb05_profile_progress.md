@@ -1,6 +1,6 @@
 # BB-05: очередь подробных профилей
 
-Дата: 2026-10-07 (Europe/Moscow). Источник статусов: shortlist.csv; 14 выбранных кейсов в 7 странах. BB-04 дал Qonto/Allica; BB-05 сейчас in_progress и завершил Tide / Mercury / Ramp / Square / Toast / iwoca. Всего 8 done / 6 todo. Следующий отдельный разбор — YouLend United Kingdom.
+Дата: 2026-10-07 (Europe/Moscow). Источник статусов: shortlist.csv; 14 выбранных кейсов в 7 странах. BB-04 дал Qonto/Allica; BB-05 сейчас in_progress и завершил Tide / Mercury / Ramp / Square / Toast / iwoca / YouLend. Всего 9 done / 5 todo. Следующий отдельный разбор — Stone Brazil.
 
 | Компания | Рынок | Статус | Материал |
 |---|---|---|---|
@@ -12,7 +12,7 @@
 | Square | United States | done | [Профиль](../../companies/b2b_banking/united_states/square.md) |
 | Toast | United States | done | [Профиль](../../companies/b2b_banking/united_states/toast.md) |
 | iwoca | Germany | done | [Профиль](../../companies/b2b_banking/germany/iwoca.md) |
-| YouLend | United Kingdom | todo | Ещё не сохранён |
+| YouLend | United Kingdom | done | [Профиль](../../companies/b2b_banking/united_kingdom/youlend.md) |
 | Stone | Brazil | todo | Ещё не сохранён |
 | RazorpayX | India | todo | Ещё не сохранён |
 | Airwallex | Australia | todo | Ещё не сохранён |
@@ -23,7 +23,7 @@
 
 [Профиль](../../companies/b2b_banking/united_kingdom/tide.md) охватывает подключение, регулярные задачи, банковские/кредитные договорные роли, Credit Flex и внешний подбор. Добавлены 26 source records, 31 claims, 25 metric observations, 7 definitions, 7 features, 15 journey steps, 2 missing-screen records и 4 contradictions. Целевые разделы договорных PDF прочитаны; годовые financial PDF не прочитаны. BB-G24–26, BB-X0004–0007 — в соответствующих реестрах.
 
-Эффект на активность, удержание и кредитную прибыль не доказан. done — ограниченный принятый публичный профиль; полный юридический аудит, реальные закрытые экраны и когортная экономика не подразумеваются. BB-06–12 ещё не выполнены. Не менять BB-05 на done до приёмки всех оставшихся 6.
+Эффект на активность, удержание и кредитную прибыль не доказан. done — ограниченный принятый публичный профиль; полный юридический аудит, реальные закрытые экраны и когортная экономика не подразумеваются. BB-06–12 ещё не выполнены. Не менять BB-05 на done до приёмки всех оставшихся 5.
 
 ## Принятый результат Mercury
 
@@ -56,3 +56,9 @@ BB-G27–29 и BB-X0008–0011 сохранены. Аудированный P&L/
 [Профиль](../../companies/b2b_banking/germany/iwoca.md): прямой/партнёрский кредит с внешним счётом, данные TrueLayer/PDF, июньская револьверная линия и повторная оценка. GmbH/договорный кредитор/групповой риск разделены. FY2025 PDF скачан, OCR и целевые визуальные проверки таблиц; не полный аудит. Три официальные иллюстрации проверены; не наблюдаемый клиентский путь. BB-G39–41, BB-X0029–0033.
 
 Добавлено: 26 sources, 26 claims, 35 metrics, 32 metric_definitions, 8 features, 16 journey_steps, 5 screens, 5 contradictions. Итог: 219 sources, 266 claims, 211 metrics, 199 metric_definitions, 65 features, 128 journey_steps, 31 screens, 33 contradictions. Всего9 визуально проверенных иллюстраций. **8 из14 done /6 todo; BB-05 in_progress6 из12; следующий YouLend UK.** BB-06–12 и PDF впереди.
+
+## Принятый результат YouLend UK — 2026-10-07
+
+[Профиль](../../companies/b2b_banking/united_kingdom/youlend.md): партнёрское финансирование с внешним банком; Plaid/PDF/JSON; технический settlement account, удержание у источника и переменное/фиксированное DD разобраны отдельно. Запуск ANNA от 23 сентября 2026 года подтверждён контрагентом; Amazon FFL 2023 года не выдана за новинку 2026-го. Учтены поручительство и комиссия в QuickBooks UK, а также минимальный недельный платёж в раскрытии одного заёмщика. Выполнены целевое чтение OCR и визуальная сверка оригинала FY2025 европейской группы; расхождение резервов сохранено. Проверены четыре официальные иллюстрации, не реальный клиентский путь. BB-G42–44; BB-X0034–0040.
+
+Добавлено: 36 sources, 30 claims, 34 metrics, 34 metric_definitions, 9 features, 21 journey_steps, 7 screens, 7 contradictions. Итог: 255 sources, 296 claims, 245 metrics, 233 metric_definitions, 74 features, 149 journey_steps, 38 screens, 40 contradictions. Всего 13 визуально проверенных иллюстраций. **9 из 14 done / 5 todo; BB-05 in_progress, 7 из 12; следующий — Stone Brazil.** BB-06–12 и финальный PDF впереди.

@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/b2b_banking/youlend/open_banking_1.png",
+    "original_url": "https://files.readme.io/70b56e047545023731bd0fd735b19cac84fbdeaac66d84c034355bfe1010b187-Screenshot_2025-08-06_at_09.49.02.png",
+    "source_id": "BB-S0252",
+    "bytes": 159698,
+    "sha256": "99fd79c8fa1a1051a258751d718e3898a93d43fa97bc62507f8520d761b2d3ba",
+    "git_blob_sha1": "dca92fb83f262554e2b41348799c6b4d9a276a28",
+    "classification": "Original PNG,visually verified official illustration;not observed current production journey"
+  },
+  {
+    "path": "assets/b2b_banking/youlend/open_banking_2.png",
+    "original_url": "https://files.readme.io/e0053ddf43b0e0dae9060986c8cfa6121a7158f3cdd291df8b158e7886dd6bf7-Screenshot_2025-08-06_at_09.49.13.png",
+    "source_id": "BB-S0253",
+    "bytes": 236426,
+    "sha256": "9594c6f7e0cf3166a875073268306cc9f1855fcc8af6be90434947b6ba6d1e2c",
+    "git_blob_sha1": "c0053f591e641712873e1b755a0b938080a68a22",
+    "classification": "Original PNG,visually verified official illustration;not observed current production journey"
+  },
+  {
+    "path": "assets/b2b_banking/youlend/open_banking_3.png",
+    "original_url": "https://files.readme.io/e54df98575a4de92f36379a137ffeaa6a9110c4239c1a12820351eba9018e26a-Screenshot_2025-08-06_at_09.49.23.png",
+    "source_id": "BB-S0254",
+    "bytes": 247430,
+    "sha256": "07545cc232fd6ec45bc655fcc83382714a48b053cb47074d41a3c28d2d659702",
+    "git_blob_sha1": "e7c13ee10968c37c663e9126d0d91fba2b7d1de1",
+    "classification": "Original PNG,visually verified official illustration;not observed current production journey"
+  },
+  {
+    "path": "assets/b2b_banking/youlend/open_banking_4.png",
+    "original_url": "https://files.readme.io/6a3220149199da32e3343db20bedbe439ba5e4447d34068d63a95fb3a096398e-Screenshot_2025-08-06_at_09.49.50.png",
+    "source_id": "BB-S0255",
+    "bytes": 60672,
+    "sha256": "db6cd70a31fc4eecf4748b74c68825c0182bdc5d1abc88e6d4740ad946c0578b",
+    "git_blob_sha1": "0eb2135881c25a3373a47558b449eef22617bb60",
+    "classification": "Original PNG,visually verified official illustration;not observed current production journey"
+  }
+]
