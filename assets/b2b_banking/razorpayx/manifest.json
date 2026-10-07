@@ -1,0 +1,35 @@
+[
+  {
+    "path": "assets/b2b_banking/razorpayx/official-1.png",
+    "original_url": "https://razorpay.com/docs/build/browser/assets/images/email.jpg",
+    "bytes": 1478200,
+    "sha256": "607f21f7df364eeedd9fa1a8521e639df7edc1153712f6402fc1a8170d896857",
+    "git_blob_sha1": "bbd1f739bf210db03ea3a9d9cfc3ff034207896f",
+    "accessed_date": "2026-10-07",
+    "evidence_type": "official_illustration",
+    "transformation": "none; renamed extension to match original PNG bytes",
+    "detected_format": "PNG (original URL ends .jpg)"
+  },
+  {
+    "path": "assets/b2b_banking/razorpayx/official-2.png",
+    "original_url": "https://razorpay.com/docs/build/browser/assets/images/modified-pre-signup-flow.jpg",
+    "bytes": 1349278,
+    "sha256": "f01c78f4076b3e75e801c4804ba53e9fdc61c82634c67c72d4d5ea9f795083ee",
+    "git_blob_sha1": "a7e81d60a87287a807b16532c8eac1df44119aee",
+    "accessed_date": "2026-10-07",
+    "evidence_type": "official_illustration",
+    "transformation": "none; renamed extension to match original PNG bytes",
+    "detected_format": "PNG (original URL ends .jpg)"
+  },
+  {
+    "path": "assets/b2b_banking/razorpayx/official-3.png",
+    "original_url": "https://razorpay.com/docs/build/browser/assets/images/OTP.jpg",
+    "bytes": 1343329,
+    "sha256": "6248950b5b9242ccf27231aff91a9cd88c75cdcf5eb9c2cdf94a8ff4f9868336",
+    "git_blob_sha1": "0868da7a0d2c148ba55fb859172e1968c7611210",
+    "accessed_date": "2026-10-07",
+    "evidence_type": "official_illustration",
+    "transformation": "none; renamed extension to match original PNG bytes",
+    "detected_format": "PNG (original URL ends .jpg)"
+  }
+]
