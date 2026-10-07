@@ -1,0 +1,26 @@
+# BB-05: очередь подробных профилей
+
+Дата: 2026-10-07 (Europe/Moscow). Источник статусов: shortlist.csv; 14 выбранных кейсов в 7 странах. BB-04 дал Qonto/Allica; BB-05 сейчас in_progress и завершил Tide. Всего 3 done / 11 todo. Следующий отдельный разбор — Mercury United States.
+
+| Компания | Рынок | Статус | Материал |
+|---|---|---|---|
+| Qonto | France | done | [Профиль](../../companies/b2b_banking/france/qonto.md) |
+| Tide | United Kingdom | done | [Профиль](../../companies/b2b_banking/united_kingdom/tide.md) |
+| Mercury | United States | todo | Ещё не сохранён |
+| Allica Bank | United Kingdom | done | [Профиль](../../companies/b2b_banking/united_kingdom/allica.md) |
+| Ramp | United States | todo | Ещё не сохранён |
+| Square | United States | todo | Ещё не сохранён |
+| Toast | United States | todo | Ещё не сохранён |
+| iwoca | Germany | todo | Ещё не сохранён |
+| YouLend | United Kingdom | todo | Ещё не сохранён |
+| Stone | Brazil | todo | Ещё не сохранён |
+| RazorpayX | India | todo | Ещё не сохранён |
+| Airwallex | Australia | todo | Ещё не сохранён |
+| Wise Business | United Kingdom | todo | Ещё не сохранён |
+| Funding Circle | United Kingdom | todo | Ещё не сохранён |
+
+## Принятый результат Tide
+
+[Профиль](../../companies/b2b_banking/united_kingdom/tide.md) охватывает подключение, регулярные задачи, банковские/кредитные договорные роли, Credit Flex и внешний подбор. Добавлены 26 source records, 31 claims, 25 metric observations, 7 definitions, 7 features, 15 journey steps, 2 missing-screen records и 4 contradictions. Целевые разделы договорных PDF прочитаны; годовые financial PDF не прочитаны. BB-G24–26, BB-X0004–0007 — в соответствующих реестрах.
+
+Эффект на активность, удержание и кредитную прибыль не доказан. done — ограниченный принятый публичный профиль; полный юридический аудит, реальные закрытые экраны и когортная экономика не подразумеваются. BB-06–12 ещё не выполнены. Не менять BB-05 на done до приёмки всех оставшихся 11.
