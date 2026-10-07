@@ -106,3 +106,17 @@ Allica Bank подтверждён списком PRA September 2026. Креди
 Annualized revenue650M на September/Q32025 и volume за календарные годы записаны как company-reported, не audited P&L. Customers300k+ смешаны business/personal — не active legal-entity РКО. Price toggle Plus/Pro не нормализован из неоднозначного извлечения. Аудированные финансы/когорты/individual risk/real UI неизвестны; BB-G27–29. Поиск закрыт в принятом публичном объёме, не как отсутствие данных вообще.
 
 Приёмка: CSV/уникальные ID/связи/сохранение старых строк, scope/period/bound метрик, 4 done / 10 todo. После записи — сравнение полного текста файлов на фиксированном SHA; SHA в #9/#11. BB-05 in_progress: 2 из 12, следующий Ramp US. Итоговый PDF впереди.
+
+## 2026-10-07 — BB-05: Ramp US, третий отдельный профиль
+
+Вход: commit `01e0e32f13557e480aebde9b8dee8469a06fb377`. Использованы ранее прочитанные deep-research, company template и evidence protocol. До поиска: workflow без миграции банка; card/AP→financing; внешние данные вместо собственной выдержки РКО; AI→cost/acquisition; annualized scale→credit profit. Для каждой гипотезы заранее сформулированы данные против.
+
+Current eligibility/help/pricing проверены до financial release/контрагентов. Отдельно прочитаны внешние bank connections, limits, card repayment, daily/Reserve, AP-only/Advisor Console, billing/fees, Stack/AR/AP agents, growth methodology. Ни заявка, ни счёт, ни платёж не выполнялись. US issuers по program disclosure и Checking First Internet Bank отделены от Investment и неизвестного конечного риска.
+
+Issuing Bank Schedule / account agreement вернули JS shells, legal через urllib HTTP403; договоры не прочитаны. Flex current help недоступна, product route неожиданно перенаправил; персонализированные query/context не сохранены. Исторический Flex2022 и current servicing reference сохранены отдельно; новые выдачи не подтверждены, закрытие не утверждается. Никакого обхода авторизации не выполнялось.
+
+Добавлены BB-S0099–0126 (28), BB-C0147–0175 (29), BB-M0076–0097 (22), 10 definitions, BB-F0025–0035 (11), BB-J0050–0066 (17), BB-V0010–0014 (5 missing), BB-X0012–0016 (5). Текущие итоги: 126 sources / 175 claims / 97 metrics / 94 definitions / 35 features / 66 steps / 14 screen records (0 visually verified) / 16 contradictions.
+
+Run-rate >1B и annualized purchase volume200B не превращены в audited FY revenue/credit originations. Source-defined businesses включают enterprise/global; Banking users и cash+investment balances не подменяют active US РКО/депозиты. Group median monthly revenue growth сохранён как reported noncausal observation; illustrative savings не импортированы в ROI. Per-user Plus fee отличается от полной platform price; eligible Checking waiver отличается от all payments free.
+
+BB-G30–32 открыты. Приёмка в публичном объёме: CSV/headers/уникальные ID/ссылочные связи/определения/сохранение старых записей, цены и исторические сроки с scope/date, явные screen gaps. После сохранения — полный текст всех 16 файлов сравнить на фиксированном SHA; SHA результата в #9/#11. BB-05 остаётся in_progress: 3 из 12, всего 5 из 14 done / 9 todo; следующий Square US. PDF ещё впереди.

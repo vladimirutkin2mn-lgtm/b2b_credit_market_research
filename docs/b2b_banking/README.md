@@ -35,3 +35,5 @@ BB-04 (2026-10-07): два [профиля и проверка шаблона](b
 BB-05 (2026-10-07): [профиль Tide UK](../../companies/b2b_banking/united_kingdom/tide.md) принят с BB-G24–26. Завершены 3 из 14 профилей; [текущая очередь](bb05_profile_progress.md). BB-05 остаётся in_progress: 11 компаний, следующая Mercury US. Атлас и итоговый PDF впереди.
 
 BB-05, продолжение (2026-10-07): [Mercury US](../../companies/b2b_banking/united_states/mercury.md) принят в публичном объёме. Разделены стандартная IO, IO-only без депозитного счёта и Working Capital с открытием счёта перед выдачей; проверены OCC и обновления June–September2026. Всего 4 из 14 профилей done, 10 todo; следующий Ramp US. BB-G27–29 открыты; итоговый PDF ещё впереди.
+
+BB-05, продолжение — Ramp US (2026-10-07): [профиль](../../companies/b2b_banking/united_states/ramp.md) принят в публичном объёме. Внешний банковский вход и бухгалтерский AP-only отделены от daily-card/Reserve; текущая новая выдача Flex неизвестна. Проверены Stack June2026 и Accounts Receivable September2026. **Текущий итог: 5 из 14 done, 9 todo; следующий Square US.** BB-G30–32 открыты; BB-05 in_progress, атлас и итоговый PDF впереди.

@@ -79,3 +79,15 @@ BB-X0006 разрешён по дате действия: опубликован
 BB-X0008: preliminary charter approval отделено от открытия. BB-X0009: Books headline free2026 уточнён footnote условий waiver. BB-X0010: IO-only не смешивается с cash-linked standard IO; точная формула standard exposure остаётся неизвестной. BB-X0011: заявления о непреодолимости agent controls не отменяют договорной ответственности клиента; фактическая эффективность не тестировалась.
 
 BB-G18 продвинут для Mercury договорных ролей, но не закрыт по независимым разрешениям/держателю риска. Company-reported 300k+ mixed customers не превратились в active РКО юрлица; 650M annualized September2025 не превращён в FY2025 revenue; transaction volume не превратился в выдачи. Приёмка публичного профиля не закрывает BB-06/08/11.
+
+## Дополнение BB-05 — Ramp US, 2026-10-07
+
+| ID | Результат поиска и остаток | Ограниченное решение | Условие возвращения |
+|---|---|---|---|
+| BB-G30 | Прочитаны current pricing/billing, первичный release OTPP/Ramp, banking disclosure и growth methodology. Annualized revenue/volume, lower-bound clients и combined balances сохранены с scope. Audited P&L, US SME active cohorts, CAC/retention/conversion, credit losses/funding/капитал не получены | Прибыльность workflow→Checking→credit; сравнимый масштаб и дополнительный эффект | BB-08: первичная сегментная финансовая база и согласованные когорты; не считать release независимым аудитом или данными LiveRamp |
+| BB-G31 | US issuer/Checking/Investment roles разделены по disclosure. Issuing Bank Schedule и bank agreement дали JS shell; дополнительная попытка legal HTTP403. Flex help недоступна; product route неожиданно перенаправил. Historical2022/servicing reference/current origination раздельно; NMLS disclosure не independent permissions | Текущие договорные кредиторы, риск/funding, полная цена и доступность Flex; допустимые клиентские обещания | Читаемые current contracts, независимые реестры и письменное уточнение product origination; отсутствие доступа не означает закрытие Flex |
+| BB-G32 | Stack/AR dated releases, AP beta/eligibility help и AP-only documented; BB-V0010–0014 missing visual verification. Savings — illustrative estimate; growth — nonrandom/noncausal | Реальный UI, массовая доступность, измеренный эффект функций и перенос данных в кредитный отбор | BB-06/09: официальные разрешённые визуальные материалы, rollout/adoption/outcomes; сохранить gap при отсутствии |
+
+BB-X0012: external-bank entry совместим с отдельным mandatory Checking daily mode. BB-X0013: traditional-loan FAQ не разрешает текущий статус Flex; historical/servicing не подменяют new origination. BB-X0014: Free core и eligible waivers не отменяют platform/transaction fees. BB-X0015: источник сам не доказывает причинность роста. BB-X0016: объёмы разных определений/неполных дат не превращены в динамику.
+
+BB-G18 продвинут для disclosed roles Ramp, но не закрыт по полным договорам/permissions/конечному риску. Банковские users и общая company customer base не объединены в долю РКО. Приёмка публичного профиля не закрывает BB-06/08/11.
