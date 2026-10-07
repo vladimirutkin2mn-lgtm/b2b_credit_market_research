@@ -132,3 +132,9 @@ BB-G30–32 открыты. Приёмка в публичном объёме: C
 [Профиль](../../companies/b2b_banking/united_states/toast.md): restaurant operations/payments→credit, limited Welcome before POS migration approval and Conditional Approval draw later, optional Thread Checking, read-only cash-flow beta, bank/Jar BillPay. WebBank originator, Toast servicing/guarantee/performing HFI разделены. October6 Team/Grow release и прошлые результаты не смешаны. Три official illustrations визуально проверены, example numbers excluded; не actual client journey. BB-G36–38, BB-X0023–0028.
 
 Добавлено: 33 sources, 32 claims, 40 metrics, 34 metric_definitions, 11 features, 26 journey_steps, 6 screens, 6 contradictions. Итог: 193 sources, 240 claims, 176 metrics, 167 metric_definitions, 57 features, 112 journey_steps, 26 screens, 28 contradictions. 6 verified illustrations. **7 из14 done /7 todo; BB-05 in_progress5 из12; следующий iwoca Germany.** BB-06–12 и PDF впереди.
+
+## Принятый результат iwoca Germany — 2026-10-07
+
+[Профиль](../../companies/b2b_banking/germany/iwoca.md): прямой/партнёрский кредит с внешним счётом, данные TrueLayer/PDF, июньская револьверная линия и повторная оценка. GmbH/договорный кредитор/групповой риск разделены. FY2025 PDF скачан, OCR и целевые визуальные проверки таблиц; не полный аудит. Три официальные иллюстрации проверены; не наблюдаемый клиентский путь. BB-G39–41, BB-X0029–0033.
+
+Добавлено: 26 sources, 26 claims, 35 metrics, 32 metric_definitions, 8 features, 16 journey_steps, 5 screens, 5 contradictions. Итог: 219 sources, 266 claims, 211 metrics, 199 metric_definitions, 65 features, 128 journey_steps, 31 screens, 33 contradictions. Всего9 визуально проверенных иллюстраций. **8 из14 done /6 todo; BB-05 in_progress6 из12; следующий YouLend UK.** BB-06–12 и PDF впереди.

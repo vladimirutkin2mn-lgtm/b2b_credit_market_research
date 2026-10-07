@@ -1,0 +1,29 @@
+[
+  {
+    "path": "assets/b2b_banking/iwoca/open_banking_1.png",
+    "original_url": "https://cdn.prod.website-files.com/63c34e378ffd315cda5f60b9/643e78b95fd2fc5ce063226a_b3e750d65639f65663fb2c69b084c8fd89f671ab726d605e05dd091d3e07108d370e08bcdd905dce79d49b902a2884841d3b111008bac94f64a045863fbb3def87eff4c3ed07924d0e1d3250c2bef150cfce4f5953e689dd1583e024b6a97a93308daaf6.avif",
+    "source_id": "BB-S0217",
+    "bytes": 192407,
+    "sha256": "84dd2102e0f0a8ead26f83fe3fba81d00db7993713a576c0e5bfe7af0d28cc49",
+    "git_blob_sha1": "a2fa90da2d9db574e518128b68b4beec5b6b3cd5",
+    "classification": "official illustration, visually verified; format conversion only; sample data excluded"
+  },
+  {
+    "path": "assets/b2b_banking/iwoca/open_banking_2.png",
+    "original_url": "https://cdn.prod.website-files.com/63c34e378ffd315cda5f60b9/643e78b9ca79b1333b0196c2_73cfed355c6e5748ad1a7250403ffe5e16da84da3f35cec5c40c1e8854681767d3b9eb63aaf8d3f29cefab2ec0168fd393523fd738fc5bb62a540c54627a1a700b83daddb321809e6be824efddacfa28a61d6756ab5e7479b7f6138620a6bc1f2bf123e6.avif",
+    "source_id": "BB-S0218",
+    "bytes": 215953,
+    "sha256": "729202973e0df65bca5bc4b2b0cc480f8f93c82a246b5717713f1d7db80142d0",
+    "git_blob_sha1": "7a0ca5a9b3dd026bd1e5e274ad6e517680ba5985",
+    "classification": "official illustration, visually verified; format conversion only; sample data excluded"
+  },
+  {
+    "path": "assets/b2b_banking/iwoca/open_banking_3.png",
+    "original_url": "https://cdn.prod.website-files.com/63c34e378ffd315cda5f60b9/643e78b9b38dc5ca526bbf1d_715d33b3ca1704421851723af6cba7d3e58b49933259ccdd1a6ef55b21064408c0abce3f17e3ebd96aeabd8e93816e7de00193298b361d3bad78505ce5ee8dae00e6fa0d09bf99387c5f1327f1be0cce7771611d586c76d62a6e148dfa63b0da3b9db3b0.avif",
+    "source_id": "BB-S0219",
+    "bytes": 143313,
+    "sha256": "877bd66e36b9240eff84c0e7e7ebe5cd66d80492f645dccb8f34ba1ce610b86e",
+    "git_blob_sha1": "579f4eb22611a8631deda553fd79026da3e078e7",
+    "classification": "official illustration, visually verified; format conversion only; sample data excluded"
+  }
+]
