@@ -37,3 +37,9 @@ BB-05 (2026-10-07): [профиль Tide UK](../../companies/b2b_banking/united_
 BB-05, продолжение (2026-10-07): [Mercury US](../../companies/b2b_banking/united_states/mercury.md) принят в публичном объёме. Разделены стандартная IO, IO-only без депозитного счёта и Working Capital с открытием счёта перед выдачей; проверены OCC и обновления June–September2026. Всего 4 из 14 профилей done, 10 todo; следующий Ramp US. BB-G27–29 открыты; итоговый PDF ещё впереди.
 
 BB-05, продолжение — Ramp US (2026-10-07): [профиль](../../companies/b2b_banking/united_states/ramp.md) принят в публичном объёме. Внешний банковский вход и бухгалтерский AP-only отделены от daily-card/Reserve; текущая новая выдача Flex неизвестна. Проверены Stack June2026 и Accounts Receivable September2026. **Текущий итог: 5 из 14 done, 9 todo; следующий Square US.** BB-G30–32 открыты; BB-05 in_progress, атлас и итоговый PDF впереди.
+
+## Принятый результат Square
+
+[Профиль](../../companies/b2b_banking/united_states/square.md): payments/data→credit с внешним банком; optional Checking, Savings, card/AP, Managerbot и Homegrown pilot раздельно. Три официальные иллюстрации скачаны и визуально проверены; это не реальный клиентский путь. Q2 commercial stock/flows и глобальный Square segment не выданы за US cohort P&L. BB-G33–35; BB-X0017–0022.
+
+Текущий итог: 160 sources / 208 claims / 136 metrics / 133 metric_definitions / 46 features / 86 journey_steps / 20 screens / 22 contradictions; 3 visually verified illustrations. BB-05 in_progress: 4 из 12; всего 6 из 14 done / 8 todo; следующий Toast US. Исторические итоги выше сохранены. Финальный PDF впереди.

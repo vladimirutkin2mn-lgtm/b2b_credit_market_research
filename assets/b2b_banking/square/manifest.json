@@ -1,0 +1,32 @@
+[
+  {
+    "path": "assets/b2b_banking/square/loan_offer.png",
+    "source_id": "BB-S0158",
+    "original_url": "https://images.ctfassets.net/gc4s9mi2asix/3B9pgYJVQgAzV9azd0UZqO/0a52f1548f3c529b352b555e4292352b/Screenshot_2025-08-19_at_9.49.31_AM.png",
+    "bytes": 125364,
+    "sha256": "cf7e2a0c2e935d1636952ddb9d77bc0eddd2c9b9591dd2e2d9a6614776f422ba",
+    "git_blob_sha1": "b11250b68faf0a4b20180133e15cf1fc70c46e34",
+    "accessed_date": "2026-10-07",
+    "classification": "visually_verified_official_illustration; sample numbers excluded; copyright original publisher"
+  },
+  {
+    "path": "assets/b2b_banking/square/minimum_payment.png",
+    "source_id": "BB-S0159",
+    "original_url": "https://images.ctfassets.net/gc4s9mi2asix/2OQG2gQyd8QsE4e0fuowxi/140b3064f527b6b420f5e170474f8585/Minimum_upcoming.png",
+    "bytes": 220166,
+    "sha256": "80602645996ecd0f1aa91dd2d1f07ddc1ddc1b15b7ca254b4702b61d4f803111",
+    "git_blob_sha1": "4ddad7f7cfc6489b1249180ad0b15948f9958e1c",
+    "accessed_date": "2026-10-07",
+    "classification": "visually_verified_official_illustration; sample numbers excluded; copyright original publisher"
+  },
+  {
+    "path": "assets/b2b_banking/square/bill_pay_methods.png",
+    "source_id": "BB-S0160",
+    "original_url": "https://images.ctfassets.net/gc4s9mi2asix/5mj54bTvTZ7FiMxeDXnzB6/1b530275f85e7cf1be1ed93a25b95e68/Bill_Pay_-_Square_Dashboard_-_Payment_Method_-_US-EN.png",
+    "bytes": 34528,
+    "sha256": "5244f4b2a03a322c10e991b0dc068035507fbfea035306ba4efcc909dd196b31",
+    "git_blob_sha1": "d5d327ebbddf4ac4b79065a22a9a6a4cf9764a5e",
+    "accessed_date": "2026-10-07",
+    "classification": "visually_verified_official_illustration; sample numbers excluded; copyright original publisher"
+  }
+]

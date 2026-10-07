@@ -91,3 +91,9 @@ BB-G18 продвинут для Mercury договорных ролей, но �
 BB-X0012: external-bank entry совместим с отдельным mandatory Checking daily mode. BB-X0013: traditional-loan FAQ не разрешает текущий статус Flex; historical/servicing не подменяют new origination. BB-X0014: Free core и eligible waivers не отменяют platform/transaction fees. BB-X0015: источник сам не доказывает причинность роста. BB-X0016: объёмы разных определений/неполных дат не превращены в динамику.
 
 BB-G18 продвинут для disclosed roles Ramp, но не закрыт по полным договорам/permissions/конечному риску. Банковские users и общая company customer base не объединены в долю РКО. Приёмка публичного профиля не закрывает BB-06/08/11.
+
+## Square US — проверено 2026-10-07
+
+- BB-G33: нет сопоставимых US cohorts active legal entities→offer→funded→repeat, CAC, retention, marginal profit, mature vintage loss. Проверены product/help, 10-K, Q2 10-Q и shareholder letter. Коммерческие остатки и sale gains найдены, но не закрывают cohort P&L. Следующий сбор — investor/management cohort disclosure.
+- BB-G34: индивидуальные loan/card/partner contracts за входом; Homegrown destination failed. Остаются распределение цены, зрелость новых моделей, scope20/5days, mismatch350/500k, конкретный риск инвестора. Нужен разрешённый sample agreement и rollout policy; не создавать реальную заявку.
+- BB-G35: три official illustrations визуально проверены, но onboarding/Checking/Managerbot complete UI отсутствует. Adoption и causal uplift новых функций не раскрыты в просмотренных первичных материалах. Следующий сбор — публичный demo и когортный эксперимент. Пробел ограничивает UX/ROI, не отменяет наличие функций.

@@ -120,3 +120,9 @@ Issuing Bank Schedule / account agreement вернули JS shells, legal чер
 Run-rate >1B и annualized purchase volume200B не превращены в audited FY revenue/credit originations. Source-defined businesses включают enterprise/global; Banking users и cash+investment balances не подменяют active US РКО/депозиты. Group median monthly revenue growth сохранён как reported noncausal observation; illustrative savings не импортированы в ROI. Per-user Plus fee отличается от полной platform price; eligible Checking waiver отличается от all payments free.
 
 BB-G30–32 открыты. Приёмка в публичном объёме: CSV/headers/уникальные ID/ссылочные связи/определения/сохранение старых записей, цены и исторические сроки с scope/date, явные screen gaps. После сохранения — полный текст всех 16 файлов сравнить на фиксированном SHA; SHA результата в #9/#11. BB-05 остаётся in_progress: 3 из 12, всего 5 из 14 done / 9 todo; следующий Square US. PDF ещё впереди.
+
+## Принятый результат Square
+
+[Профиль](../../companies/b2b_banking/united_states/square.md): payments/data→credit с внешним банком; optional Checking, Savings, card/AP, Managerbot и Homegrown pilot раздельно. Три официальные иллюстрации скачаны и визуально проверены; это не реальный клиентский путь. Q2 commercial stock/flows и глобальный Square segment не выданы за US cohort P&L. BB-G33–35; BB-X0017–0022.
+
+Текущий итог: 160 sources / 208 claims / 136 metrics / 133 metric_definitions / 46 features / 86 journey_steps / 20 screens / 22 contradictions; 3 visually verified illustrations. BB-05 in_progress: 4 из 12; всего 6 из 14 done / 8 todo; следующий Toast US. Исторические итоги выше сохранены. Финальный PDF впереди.

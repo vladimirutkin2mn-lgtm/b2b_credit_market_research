@@ -1,6 +1,6 @@
 # BB-05: очередь подробных профилей
 
-Дата: 2026-10-07 (Europe/Moscow). Источник статусов: shortlist.csv; 14 выбранных кейсов в 7 странах. BB-04 дал Qonto/Allica; BB-05 сейчас in_progress и завершил Tide / Mercury / Ramp. Всего 5 done / 9 todo. Следующий отдельный разбор — Square United States.
+Дата: 2026-10-07 (Europe/Moscow). Источник статусов: shortlist.csv; 14 выбранных кейсов в 7 странах. BB-04 дал Qonto/Allica; BB-05 сейчас in_progress и завершил Tide / Mercury / Ramp / Square. Всего 6 done / 8 todo. Следующий отдельный разбор — Toast United States.
 
 | Компания | Рынок | Статус | Материал |
 |---|---|---|---|
@@ -9,7 +9,7 @@
 | Mercury | United States | done | [Профиль](../../companies/b2b_banking/united_states/mercury.md) |
 | Allica Bank | United Kingdom | done | [Профиль](../../companies/b2b_banking/united_kingdom/allica.md) |
 | Ramp | United States | done | [Профиль](../../companies/b2b_banking/united_states/ramp.md) |
-| Square | United States | todo | Ещё не сохранён |
+| Square | United States | done | [Профиль](../../companies/b2b_banking/united_states/square.md) |
 | Toast | United States | todo | Ещё не сохранён |
 | iwoca | Germany | todo | Ещё не сохранён |
 | YouLend | United Kingdom | todo | Ещё не сохранён |
@@ -23,7 +23,7 @@
 
 [Профиль](../../companies/b2b_banking/united_kingdom/tide.md) охватывает подключение, регулярные задачи, банковские/кредитные договорные роли, Credit Flex и внешний подбор. Добавлены 26 source records, 31 claims, 25 metric observations, 7 definitions, 7 features, 15 journey steps, 2 missing-screen records и 4 contradictions. Целевые разделы договорных PDF прочитаны; годовые financial PDF не прочитаны. BB-G24–26, BB-X0004–0007 — в соответствующих реестрах.
 
-Эффект на активность, удержание и кредитную прибыль не доказан. done — ограниченный принятый публичный профиль; полный юридический аудит, реальные закрытые экраны и когортная экономика не подразумеваются. BB-06–12 ещё не выполнены. Не менять BB-05 на done до приёмки всех оставшихся 9.
+Эффект на активность, удержание и кредитную прибыль не доказан. done — ограниченный принятый публичный профиль; полный юридический аудит, реальные закрытые экраны и когортная экономика не подразумеваются. BB-06–12 ещё не выполнены. Не менять BB-05 на done до приёмки всех оставшихся 8.
 
 ## Принятый результат Mercury
 
@@ -38,3 +38,9 @@ BB-G27–29 и BB-X0008–0011 сохранены. Аудированный P&L/
 Добавлены 28 sources (включая неудачные проверки), 29 claims, 22 metrics, 10 definitions, 11 features, 17 journey steps, 5 missing-screen records, 5 contradictions. BB-G30–32 и BB-X0012–0016 сохранены. Юридические JS shell/HTTP403 не выданы за прочитанные договоры.
 
 **Текущий итог: 126 sources / 175 claims / 97 metrics / 94 definitions / 35 features / 66 steps / 14 screen records (0 visually verified) / 16 contradictions. BB-05 in_progress: 3 из 12; вместе с BB-04 — 5 из 14 done, 9 todo; следующий Square US.** Ранее приведённые числа — исторические итоги соответствующего профиля. PDF впереди.
+
+## Принятый результат Square
+
+[Профиль](../../companies/b2b_banking/united_states/square.md): payments/data→credit с внешним банком; optional Checking, Savings, card/AP, Managerbot и Homegrown pilot раздельно. Три официальные иллюстрации скачаны и визуально проверены; это не реальный клиентский путь. Q2 commercial stock/flows и глобальный Square segment не выданы за US cohort P&L. BB-G33–35; BB-X0017–0022.
+
+Текущий итог: 160 sources / 208 claims / 136 metrics / 133 metric_definitions / 46 features / 86 journey_steps / 20 screens / 22 contradictions; 3 visually verified illustrations. BB-05 in_progress: 4 из 12; всего 6 из 14 done / 8 todo; следующий Toast US. Исторические итоги выше сохранены. Финальный PDF впереди.
