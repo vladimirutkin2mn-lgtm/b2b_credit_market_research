@@ -1,0 +1,32 @@
+[
+  {
+    "path": "assets/b2b_banking/toast/loan_offer.png",
+    "source_id": "BB-S0191",
+    "original_url": "https://dwvhey99m5tyy.cloudfront.net/images/ka2PV000000RuanYAC/0EMPV00000KCGiD",
+    "bytes": 14823,
+    "sha256": "47788dd5bbc2a818d5bf1a82f8dc37f0d0291165e141b56827a58432745bec44",
+    "git_blob_sha1": "d9bba4e02824b17bfc805329840814cb70ee29ca",
+    "accessed_date": "2026-10-07",
+    "classification": "visually_verified_official_illustration; sample data excluded; copyright original publisher"
+  },
+  {
+    "path": "assets/b2b_banking/toast/finance_hub.png",
+    "source_id": "BB-S0192",
+    "original_url": "https://dwvhey99m5tyy.cloudfront.net/images/ka2PV000000Lg13YAC/0EMPV00000ivOkD",
+    "bytes": 510871,
+    "sha256": "938d06e1184fcb642527d8a529fd2d9591273e292c70c6ba28bfbec9dd73c134",
+    "git_blob_sha1": "be8a9a10425db3fd60e996fe5cd2984a1ca6b80f",
+    "accessed_date": "2026-10-07",
+    "classification": "visually_verified_official_illustration; sample data excluded; copyright original publisher"
+  },
+  {
+    "path": "assets/b2b_banking/toast/bill_pay_entry.png",
+    "source_id": "BB-S0193",
+    "original_url": "https://dwvhey99m5tyy.cloudfront.net/images/ka2PV000000No0vYAC/0EMPV00000dvQaP",
+    "bytes": 9128,
+    "sha256": "802049d2add7274d5ba193d1f626ab990973bc0f75a2219972d0c46aec8ee425",
+    "git_blob_sha1": "4016d8dcaf7ad4e885812dbb831cda122b45b346",
+    "accessed_date": "2026-10-07",
+    "classification": "visually_verified_official_illustration; sample data excluded; copyright original publisher"
+  }
+]

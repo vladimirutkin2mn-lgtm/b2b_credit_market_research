@@ -126,3 +126,9 @@ BB-G30–32 открыты. Приёмка в публичном объёме: C
 [Профиль](../../companies/b2b_banking/united_states/square.md): payments/data→credit с внешним банком; optional Checking, Savings, card/AP, Managerbot и Homegrown pilot раздельно. Три официальные иллюстрации скачаны и визуально проверены; это не реальный клиентский путь. Q2 commercial stock/flows и глобальный Square segment не выданы за US cohort P&L. BB-G33–35; BB-X0017–0022.
 
 Текущий итог: 160 sources / 208 claims / 136 metrics / 133 metric_definitions / 46 features / 86 journey_steps / 20 screens / 22 contradictions; 3 visually verified illustrations. BB-05 in_progress: 4 из 12; всего 6 из 14 done / 8 todo; следующий Toast US. Исторические итоги выше сохранены. Финальный PDF впереди.
+
+## Принятый результат Toast — 2026-10-07
+
+[Профиль](../../companies/b2b_banking/united_states/toast.md): restaurant operations/payments→credit, limited Welcome before POS migration approval and Conditional Approval draw later, optional Thread Checking, read-only cash-flow beta, bank/Jar BillPay. WebBank originator, Toast servicing/guarantee/performing HFI разделены. October6 Team/Grow release и прошлые результаты не смешаны. Три official illustrations визуально проверены, example numbers excluded; не actual client journey. BB-G36–38, BB-X0023–0028.
+
+Добавлено: 33 sources, 32 claims, 40 metrics, 34 metric_definitions, 11 features, 26 journey_steps, 6 screens, 6 contradictions. Итог: 193 sources, 240 claims, 176 metrics, 167 metric_definitions, 57 features, 112 journey_steps, 26 screens, 28 contradictions. 6 verified illustrations. **7 из14 done /7 todo; BB-05 in_progress5 из12; следующий iwoca Germany.** BB-06–12 и PDF впереди.
