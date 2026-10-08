@@ -1,0 +1,35 @@
+[
+  {
+    "path": "assets/b2b_banking/airwallex/cash_navigation.png",
+    "original_url": "https://help.airwallex.com/hc/article_attachments/17116442409231",
+    "bytes": 41640,
+    "sha256": "3fbcdbe696c425b665d10719c70112190108cb1a448846a2e1f560385599d73a",
+    "git_blob_sha1": "51226358404a0d48e6de49ca612d765811c7af9b",
+    "format": "PNG",
+    "viewed": true,
+    "scope": "Official generic help illustration;not live AU customer session",
+    "checked_at": "2026-10-07"
+  },
+  {
+    "path": "assets/b2b_banking/airwallex/global_account.png",
+    "original_url": "https://help.airwallex.com/hc/article_attachments/17116470139279",
+    "bytes": 296126,
+    "sha256": "23a88b71a625801d09d8e29d3e331716d3bacb36e9296aec36005fbd7e2c36af",
+    "git_blob_sha1": "3b7fe50c127013a231041cb00dd9c2c8a3dc05a3",
+    "format": "PNG",
+    "viewed": true,
+    "scope": "Official generic help illustration;not live AU customer session",
+    "checked_at": "2026-10-07"
+  },
+  {
+    "path": "assets/b2b_banking/airwallex/legacy_wallet.png",
+    "original_url": "https://help.airwallex.com/hc/article_attachments/9974962385039",
+    "bytes": 199617,
+    "sha256": "7dfccf97b16b5404bd66c63794666bee00055985b33f449df603833b3a0e4846",
+    "git_blob_sha1": "5602c330a84d3d71d285673df884773e85eac9f4",
+    "format": "PNG",
+    "viewed": true,
+    "scope": "Official generic help illustration;not live AU customer session",
+    "checked_at": "2026-10-07"
+  }
+]
