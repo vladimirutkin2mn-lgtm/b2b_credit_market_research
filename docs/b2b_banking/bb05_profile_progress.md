@@ -1,6 +1,6 @@
 # BB-05: очередь подробных профилей
 
-Дата: 2026-10-07. Источник статусов: shortlist.csv;14 выбранных кейсов. BB-04 дал Qonto/Allica;BB-05 завершил 10 из 12. Всего 12 done / 2 todo. Следующий отдельный разбор — Wise Business UK.
+Дата: 2026-10-09. Источник статусов: shortlist.csv; 14 выбранных кейсов. BB-04 дал Qonto/Allica; BB-05 завершил остальные 12. Всего 14 done / 0 todo. Исторические записи ниже сохраняют ход исследования.
 
 | Компания | Рынок | Статус | Материал |
 |---|---|---|---|
@@ -16,8 +16,8 @@
 | Stone | Brazil | done | [Профиль](../../companies/b2b_banking/brazil/stone.md) |
 | RazorpayX | India | done | [Профиль](../../companies/b2b_banking/india/razorpayx.md) |
 | Airwallex | Australia | done | [Профиль](../../companies/b2b_banking/australia/airwallex.md) |
-| Wise Business | United Kingdom | todo | Ещё не сохранён |
-| Funding Circle | United Kingdom | todo | Ещё не сохранён |
+| Wise Business | United Kingdom | done | [Профиль](../../companies/b2b_banking/united_kingdom/wise.md) |
+| Funding Circle | United Kingdom | done | [Профиль](../../companies/b2b_banking/united_kingdom/funding_circle.md) |
 
 ## Принятый результат Tide
 

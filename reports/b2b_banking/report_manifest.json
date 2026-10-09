@@ -1,0 +1,142 @@
+{
+  "evidence_commit": "5b584f5adf20b2c421e404f4e1e92486eee2cc41",
+  "date": "2026-10-09",
+  "headings": [
+    {
+      "level": 0,
+      "title": "1. Управленческий ответ",
+      "page": 3
+    },
+    {
+      "level": 0,
+      "title": "2. Границы исследования и определения",
+      "page": 6
+    },
+    {
+      "level": 0,
+      "title": "3. Как бизнес приходит и начинает пользоваться",
+      "page": 8
+    },
+    {
+      "level": 0,
+      "title": "4. Данные, кредит и полная экономика",
+      "page": 10
+    },
+    {
+      "level": 0,
+      "title": "5. Продукты и свежие изменения",
+      "page": 13
+    },
+    {
+      "level": 0,
+      "title": "6. Подробные кейсы",
+      "page": 15
+    },
+    {
+      "level": 1,
+      "title": "Qonto / Франция",
+      "page": 16
+    },
+    {
+      "level": 1,
+      "title": "Allica Bank / Великобритания",
+      "page": 18
+    },
+    {
+      "level": 1,
+      "title": "Tide / Великобритания",
+      "page": 20
+    },
+    {
+      "level": 1,
+      "title": "Mercury / США",
+      "page": 22
+    },
+    {
+      "level": 1,
+      "title": "Ramp / США",
+      "page": 24
+    },
+    {
+      "level": 1,
+      "title": "Square / США",
+      "page": 26
+    },
+    {
+      "level": 1,
+      "title": "Toast / США",
+      "page": 28
+    },
+    {
+      "level": 1,
+      "title": "iwoca / Германия",
+      "page": 30
+    },
+    {
+      "level": 1,
+      "title": "YouLend / Великобритания",
+      "page": 32
+    },
+    {
+      "level": 1,
+      "title": "Stone / Бразилия",
+      "page": 34
+    },
+    {
+      "level": 1,
+      "title": "RazorpayX / Индия",
+      "page": 36
+    },
+    {
+      "level": 1,
+      "title": "Airwallex / Австралия",
+      "page": 38
+    },
+    {
+      "level": 1,
+      "title": "Wise / Великобритания",
+      "page": 40
+    },
+    {
+      "level": 1,
+      "title": "Funding Circle / Великобритания",
+      "page": 42
+    },
+    {
+      "level": 0,
+      "title": "7. Клиентские пути и официальные иллюстрации",
+      "page": 44
+    },
+    {
+      "level": 0,
+      "title": "8. Что переносится в российский контекст",
+      "page": 57
+    },
+    {
+      "level": 0,
+      "title": "9. Инициативы и проекты пилотов Ozon Банка",
+      "page": 59
+    },
+    {
+      "level": 0,
+      "title": "10. Проверка исходных гипотез",
+      "page": 66
+    },
+    {
+      "level": 0,
+      "title": "11. Ограничения, контрпримеры и приёмка",
+      "page": 68
+    },
+    {
+      "level": 0,
+      "title": "12. Доказательства и приложение",
+      "page": 70
+    }
+  ],
+  "sources_in_pdf": 216,
+  "registry_sources": 384,
+  "cases": 14,
+  "illustrations_in_pdf": 12,
+  "saved_illustrations": 22,
+  "output_bytes": 3782143
+}
