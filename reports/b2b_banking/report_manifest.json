@@ -1,6 +1,10 @@
 {
-  "evidence_commit": "5b584f5adf20b2c421e404f4e1e92486eee2cc41",
-  "date": "2026-10-09",
+  "evidence_commit": "4f91aa893d9332a8f922bf716ea0b0f785e22f8a",
+  "date": "2026-10-10",
+  "version": "1.1",
+  "published_commit": "e710b1b8d824bb5ec18a6999911f0d13ebf1f72b",
+  "publication_status": "local_sources_pending_publication",
+  "pages": 80,
   "headings": [
     {
       "level": 0,
@@ -9,134 +13,134 @@
     },
     {
       "level": 0,
-      "title": "2. Границы исследования и определения",
+      "title": "2. Сравнение механизмов входа и кредита",
       "page": 6
     },
     {
       "level": 0,
       "title": "3. Как бизнес приходит и начинает пользоваться",
-      "page": 8
+      "page": 9
     },
     {
       "level": 0,
       "title": "4. Данные, кредит и полная экономика",
-      "page": 10
+      "page": 12
     },
     {
       "level": 0,
       "title": "5. Продукты и свежие изменения",
-      "page": 13
+      "page": 16
     },
     {
       "level": 0,
       "title": "6. Подробные кейсы",
-      "page": 15
-    },
-    {
-      "level": 1,
-      "title": "Qonto / Франция",
-      "page": 16
-    },
-    {
-      "level": 1,
-      "title": "Allica Bank / Великобритания",
       "page": 18
     },
     {
       "level": 1,
-      "title": "Tide / Великобритания",
+      "title": "Qonto / Франция",
+      "page": 18
+    },
+    {
+      "level": 1,
+      "title": "Allica Bank / Великобритания",
       "page": 20
     },
     {
       "level": 1,
-      "title": "Mercury / США",
+      "title": "Tide / Великобритания",
       "page": 22
     },
     {
       "level": 1,
-      "title": "Ramp / США",
+      "title": "Mercury / США",
       "page": 24
     },
     {
       "level": 1,
-      "title": "Square / США",
+      "title": "Ramp / США",
       "page": 26
     },
     {
       "level": 1,
-      "title": "Toast / США",
+      "title": "Square / США",
       "page": 28
     },
     {
       "level": 1,
-      "title": "iwoca / Германия",
+      "title": "Toast / США",
       "page": 30
     },
     {
       "level": 1,
-      "title": "YouLend / Великобритания",
+      "title": "iwoca / Германия",
       "page": 32
     },
     {
       "level": 1,
-      "title": "Stone / Бразилия",
+      "title": "YouLend / Великобритания",
       "page": 34
     },
     {
       "level": 1,
-      "title": "RazorpayX / Индия",
+      "title": "Stone / Бразилия",
       "page": 36
     },
     {
       "level": 1,
-      "title": "Airwallex / Австралия",
+      "title": "RazorpayX / Индия",
       "page": 38
     },
     {
       "level": 1,
-      "title": "Wise / Великобритания",
+      "title": "Airwallex / Австралия",
       "page": 40
     },
     {
       "level": 1,
-      "title": "Funding Circle / Великобритания",
+      "title": "Wise / Великобритания",
       "page": 42
     },
     {
-      "level": 0,
-      "title": "7. Клиентские пути и официальные иллюстрации",
+      "level": 1,
+      "title": "Funding Circle / Великобритания",
       "page": 44
     },
     {
       "level": 0,
+      "title": "7. Клиентские пути: действие, данные и границы",
+      "page": 46
+    },
+    {
+      "level": 0,
       "title": "8. Что переносится в российский контекст",
-      "page": 57
+      "page": 52
     },
     {
       "level": 0,
       "title": "9. Инициативы и проекты пилотов Ozon Банка",
-      "page": 59
+      "page": 54
     },
     {
       "level": 0,
       "title": "10. Проверка исходных гипотез",
-      "page": 66
+      "page": 63
     },
     {
       "level": 0,
-      "title": "11. Ограничения, контрпримеры и приёмка",
-      "page": 68
+      "title": "11. Ограничения и данные, которые могут изменить решение",
+      "page": 65
     },
     {
       "level": 0,
       "title": "12. Доказательства и приложение",
-      "page": 70
+      "page": 67
     }
   ],
-  "sources_in_pdf": 216,
-  "registry_sources": 384,
+  "sources_in_pdf": 206,
+  "registry_sources": 389,
   "cases": 14,
-  "illustrations_in_pdf": 12,
+  "illustrations_in_pdf": 6,
   "saved_illustrations": 22,
-  "output_bytes": 3782143
+  "output_bytes": 1615076
 }

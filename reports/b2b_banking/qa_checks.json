@@ -1,26 +1,19 @@
 {
   "structural_result": "PASS",
-  "pages": 79,
-  "links": 1027,
-  "bibliography_urls_verified": 216,
+  "pages": 80,
+  "links": 882,
+  "bibliography_urls_verified": 206,
   "out_of_bounds": [],
   "sparse_pages_for_visual_review": [
-    1,
-    44,
-    45,
-    46,
-    47,
-    48,
-    49,
-    50,
-    51,
-    52,
-    53,
-    54,
-    55,
-    69
+    1
   ],
-  "pdf_sha256": "6dd75d6b55aa7d47d6c15fb1f4c3cdca9f1f8e3f93a121f3484fbf88e972b719",
+  "pdf_sha256": "5dbf0e04afbff25b78f552fc68eb990eb9a0f6bb6240c6cc87618d4c4d82b9d2",
+  "output_bytes": 1615076,
+  "version": "1.1",
+  "date": "2026-10-10",
+  "evidence_commit": "4f91aa893d9332a8f922bf716ea0b0f785e22f8a",
+  "published_commit": "e710b1b8d824bb5ec18a6999911f0d13ebf1f72b",
+  "publication_status": "local_sources_pending_publication",
   "visual_review": "PASS",
   "visual_pages_reviewed": [
     1,
@@ -101,13 +94,39 @@
     76,
     77,
     78,
-    79
+    79,
+    80
   ],
-  "final_copyedit_pages_reviewed": [
+  "visual_contact_sheets_reviewed": 20,
+  "evidence_validation": "PASS",
+  "registry_counts": {
+    "sources": 389,
+    "claims": 419,
+    "metrics": 405,
+    "metric_definitions": 392,
+    "cases": 14,
+    "opportunities": 7,
+    "hypotheses": 8,
+    "journey_steps": 239
+  },
+  "illustrations_in_pdf": 6,
+  "saved_illustrations": 22,
+  "annotated_journeys": 3,
+  "pilot_card_pages": [
+    56,
     57,
-    71,
-    77,
-    79
+    58,
+    59,
+    60,
+    61,
+    62
   ],
-  "unchanged_pages_glyph_layout_verified": 75
+  "saved_copy_verification": {
+    "result": "PASS",
+    "file_size_bytes": 1640088,
+    "sha256": "3edd0971c7ce5cc6f8f677e59aa755addb479718a516cea311e65c807dd8645c",
+    "identical_page_content_streams": 80,
+    "identical_page_dimensions": 80,
+    "identical_link_annotations": true
+  }
 }
