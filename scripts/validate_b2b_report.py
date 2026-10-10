@@ -7,6 +7,7 @@ from PIL import Image,ImageOps,ImageDraw,ImageFont
 ROOT=Path(__file__).resolve().parents[1]
 PDF=ROOT/'reports/b2b_banking/b2b_banking_external_growth_ru.pdf'
 QA=Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'.tmp/b2b_report_qa';QA.mkdir(parents=True,exist_ok=True)
+manifest=json.loads((ROOT/'reports/b2b_banking/report_manifest.json').read_text())
 reader=PdfReader(str(PDF));bad=[];sparse=[];texts=[];annotations=0
 with pdfplumber.open(PDF) as pdf:
  for n,p in enumerate(pdf.pages,1):
@@ -31,11 +32,27 @@ for page in reader.pages:
 sources={x['source_id']:x['url'] for x in csv.DictReader((ROOT/'data/b2b_banking/sources.csv').open())}
 md=(ROOT/'reports/b2b_banking/report_ru.md').read_text()
 bib=re.findall(r'<!-- SOURCE (BB-S[0-9]{4}) -->',md)
-assert len(bib)==216
+assert len(bib)==len(set(bib))==manifest['sources_in_pdf']
+assert len(reader.pages)==manifest['pages']
 for sid in bib:assert sources[sid] in pdf_urls,(sid,'URL missing or altered')
 alltext='\n'.join(texts)
-assert '10.10.2026' not in alltext
-assert '5b584f5adf20b2c421e404f4e1e92486eee2cc41' in alltext
+assert '10.10.2026' in alltext
+assert manifest['evidence_commit'] in alltext
+assert manifest['version']=='1.1'
+assert len(re.findall(r'<!-- FIGURE BB-V[0-9]{4} -->',md))==manifest['illustrations_in_pdf']==6
+for old in ['помощь расходится', 'Единая активная база измеряет доход', 'Годовой темп выручки', 'Дополнительные выданные и погашенные сделки']:
+ assert old not in md,old
+for identifier in ['BB-C0418','BB-C0419','BB-M0405']:
+ assert identifier in alltext,identifier
+for i in range(1,8):
+ assert f'BB-O0{i}.' in alltext
+for local_path in re.findall(r'!\[[^\]]*\]\(([^)]+)\)',md):
+ assert (ROOT/local_path).is_file(),local_path
+for target in pdf_urls:
+ marker='/blob/'+manifest['evidence_commit']+'/'
+ if marker in target:
+  relative=target.split(marker,1)[1]
+  assert (ROOT/relative).is_file(),('missing linked repository file',relative)
 assert 'Внешний B2B-бизнес' in alltext and 'Управленческий ответ' in alltext
 assert '\ufffd' not in alltext
 for name in ['Qonto','Allica','Tide','Mercury','Ramp','Square','Toast','iwoca','YouLend','Stone','RazorpayX','Airwallex','Wise','Funding Circle']:assert name in alltext

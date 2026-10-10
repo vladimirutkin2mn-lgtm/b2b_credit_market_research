@@ -3,9 +3,19 @@
 Run from repository root. This script does not collect sources or estimate
 Ozon Bank parameters. It writes explicit research hypotheses and evidence gaps.
 """
-import csv, json, re
+import argparse, csv, json, re
 from pathlib import Path
 from collections import Counter
+
+# The original draft generator is retained for historical reproduction.
+# Version 1.1 uses reviewed source documents and registries directly.
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--recreate-historical-draft', action='store_true',
+    help='Recreate the 2026-10-09 draft in an isolated checkout, replacing reviewed sources')
+args = parser.parse_args()
+if not args.recreate_historical_draft:
+    parser.exit(message='Version 1.1: build the reviewed report with scripts/build_b2b_report.py. '
+        'Historical draft reproduction requires --recreate-historical-draft in an isolated checkout.\n')
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data/b2b_banking'
