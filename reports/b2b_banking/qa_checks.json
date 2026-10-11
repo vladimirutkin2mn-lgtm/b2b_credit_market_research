@@ -12,8 +12,10 @@
   "version": "1.1",
   "date": "2026-10-10",
   "evidence_commit": "4f91aa893d9332a8f922bf716ea0b0f785e22f8a",
-  "published_commit": "e710b1b8d824bb5ec18a6999911f0d13ebf1f72b",
-  "publication_status": "local_sources_pending_publication",
+  "published_commit_at_build": "e710b1b8d824bb5ec18a6999911f0d13ebf1f72b",
+  "publication_status_at_build": "local_sources_pending_publication",
+  "published_commit": "61e4f788af5b1b7cba46b4ecbf7552eb9224095f",
+  "publication_status": "published",
   "visual_review": "PASS",
   "visual_pages_reviewed": [
     1,
@@ -128,5 +130,17 @@
     "identical_page_content_streams": 80,
     "identical_page_dimensions": 80,
     "identical_link_annotations": true
+  },
+  "publication": {
+    "date_local": "2026-10-11",
+    "timezone": "Europe/Moscow",
+    "source_commit": "4f784e3d28f059099307d5466e69a99816e2c8c3",
+    "report_commit": "61e4f788af5b1b7cba46b4ecbf7552eb9224095f",
+    "source_tree": "50f0e7f512fbe00982610ff4f9cb110403677b22",
+    "report_tree": "8d8ce4e5239bfee61eb9826a57dd95beb1576bb1",
+    "identical_reviewed_source_tree": true,
+    "identical_reviewed_release_tree": true,
+    "force": false,
+    "main_verified": true
   }
 }
